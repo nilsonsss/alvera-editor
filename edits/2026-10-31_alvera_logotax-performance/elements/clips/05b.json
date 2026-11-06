@@ -1,0 +1,26 @@
+{
+ "src": "/Users/nils/Documents/Alvera/SHOOTS/NO1/VIDS/C7333.MP4",
+ "in": 0.8,
+ "dur": 2.01,
+ "fps": 24,
+ "speed": 0.48,
+ "canvas": [
+  1080,
+  1920
+ ],
+ "lut": "/Users/nils/Documents/Alvera/LUTS/ALVERA_0915_match.cube",
+ "finish": "split[a][b];[b]lutyuv=y='if(gt(val,205),val,16)',gblur=sigma=22[g];[a][g]blend=c0_mode=screen:c0_opacity=0.16:c1_opacity=0:c2_opacity=0,noise=c0s=5:c0f=t,vignette=PI/7",
+ "grade_extra": "unsharp=5:5:0.4,",
+ "smooth": 1.0,
+ "punch": 1.56,
+ "push": [
+  1.0,
+  1.05
+ ],
+ "center": [
+  0.52,
+  0.46
+ ],
+ "rotate": "cw",
+ "angle": -19.2
+}

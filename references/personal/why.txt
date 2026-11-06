@@ -1,0 +1,5 @@
+# Why I like these (one line per video or moment)
+# Format:  filename-or-link | time | what I like
+# Example: ad1.mp4 | 0:04 | text slides in from the side, calm
+# Example: https://www.instagram.com/reel/xxxx | whole | slow pacing, no music until the end
+

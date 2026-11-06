@@ -1,0 +1,87 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV
+Style: Cap,Montserrat ExtraBold,100,&H00FFFFFF,&H50000000,&H60000000,0,0,1,3.5,4.0,2,110,110,430
+Style: Big,Instrument Serif Italic,150,&H00FFFFFF,&H50000000,&H70000000,0,0,1,0,3.0,5,60,60,0
+Style: Label,IBM Plex Mono Medium,58,&H00FFFFFF,&H50000000,&H70000000,0,0,1,1,2.0,8,60,60,300
+Style: Pop,Geist Black,220,&H00FFFFFF,&H50000000,&H70000000,0,0,1,3.0,5.0,5,60,60,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.75,0:00:02.56,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx99\fscy99\move(540,1524,540,1478,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}You ever
+Dialogue: 0,0:00:01.75,0:00:02.56,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx99\fscy99\move(540,1626,540,1580,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}WONDER {\fnMontserrat ExtraBold\fs100\c&HFFFFFF&}why
+Dialogue: 0,0:00:02.56,0:00:04.07,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat Bold Italic\c&HFFFFFF&\fscx100\fscy100\move(540,1476,540,1430,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}most
+Dialogue: 0,0:00:02.56,0:00:04.07,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1580,540,1534,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}LUXURY
+Dialogue: 0,0:00:02.56,0:00:04.07,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1626,540,1580,540,780)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(540,680,\1a&H00&\3a&H50&\4a&H60&)}watches cost
+Dialogue: 0,0:00:06.22,0:00:07.50,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1522,540,1476,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}It's not the
+Dialogue: 0,0:00:06.22,0:00:07.50,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1626,540,1580,353,593)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(353,493,\1a&H00&\3a&H50&\4a&H60&)}MATERIALS
+Dialogue: 0,0:00:07.50,0:00:09.36,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1522,540,1476,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}Most use the same
+Dialogue: 0,0:00:07.50,0:00:09.36,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1626,540,1580,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}STEEL
+Dialogue: 0,0:00:09.36,0:00:11.07,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1476,540,1430,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}the same
+Dialogue: 0,0:00:09.36,0:00:11.07,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1580,540,1534,349,589)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(349,489,\1a&H00&\3a&H50&\4a&H60&)}SAPPHIRE
+Dialogue: 0,0:00:09.36,0:00:11.07,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1626,540,1580,349,589)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(349,489,\1a&H00&\3a&H50&\4a&H60&)}crystal
+Dialogue: 0,0:00:11.09,0:00:12.34,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1476,540,1430,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}even the same
+Dialogue: 0,0:00:11.09,0:00:12.34,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1580,540,1534,291,531)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(291,431,\1a&H00&\3a&H50&\4a&H60&)}MOVEMENTS
+Dialogue: 0,0:00:11.09,0:00:12.34,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1626,540,1580,291,531)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(291,431,\1a&H00&\3a&H50&\4a&H60&)}you'll find
+Dialogue: 0,0:00:12.34,0:00:14.10,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1476,540,1430,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}in these
+Dialogue: 0,0:00:12.34,0:00:14.10,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1580,540,1534,320,560)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(320,460,\1a&H00&\3a&H50&\4a&H60&)}ALVERA
+Dialogue: 0,0:00:12.34,0:00:14.10,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1626,540,1580,320,560)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(320,460,\1a&H00&\3a&H50&\4a&H60&)}watches
+Dialogue: 0,0:00:15.47,0:00:17.18,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1580,540,1534,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}BRANDING
+Dialogue: 0,0:00:15.47,0:00:17.18,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1626,540,1580,820,1060)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(820,960,\1a&H00&\3a&H50&\4a&H60&)}and markup
+Dialogue: 0,0:00:17.28,0:00:19.23,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx82\fscy82\move(540,1542,540,1496,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}What most people don't
+Dialogue: 0,0:00:17.28,0:00:19.23,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx82\fscy82\move(540,1626,540,1580,1000,1240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(1000,1140,\1a&H00&\3a&H50&\4a&H60&)}REALIZE {\fnMontserrat ExtraBold\fs100\c&HFFFFFF&}is
+Dialogue: 0,0:00:19.23,0:00:21.36,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx92\fscy92\move(540,1489,540,1443,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}you can get the same
+Dialogue: 0,0:00:19.23,0:00:21.36,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx92\fscy92\move(540,1584,540,1538,1051,1291)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(1051,1191,\1a&H00&\3a&H50&\4a&H60&)}LUXURY
+Dialogue: 0,0:00:19.23,0:00:21.36,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx92\fscy92\move(540,1626,540,1580,1051,1291)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(1051,1191,\1a&H00&\3a&H50&\4a&H60&)}feel
+Dialogue: 0,0:00:21.36,0:00:22.24,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat Bold Italic\c&HFFFFFF&\fscx100\fscy100\move(540,1522,540,1476,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}fully
+Dialogue: 0,0:00:21.36,0:00:22.24,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1626,540,1580,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}MECHANICAL
+Dialogue: 0,0:00:22.24,0:00:24.11,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1476,540,1430,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}for a
+Dialogue: 0,0:00:22.24,0:00:24.11,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1580,540,1534,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}FRACTION
+Dialogue: 0,0:00:22.24,0:00:24.11,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1626,540,1580,730,970)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(730,870,\1a&H00&\3a&H50&\4a&H60&)}of the price
+Dialogue: 0,0:00:25.64,0:00:27.24,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat Bold Italic\c&HFFFFFF&\fscx100\fscy100\move(540,1476,540,1430,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}no
+Dialogue: 0,0:00:25.64,0:00:27.24,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1580,540,1534,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}STRESS
+Dialogue: 0,0:00:25.64,0:00:27.24,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1626,540,1580,510,750)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(510,650,\1a&H00&\3a&H50&\4a&H60&)}wearing it out
+Dialogue: 0,0:00:27.24,0:00:28.44,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat Bold Italic\c&HFFFFFF&\fscx100\fscy100\move(540,1476,540,1430,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}just
+Dialogue: 0,0:00:27.24,0:00:28.44,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1580,540,1534,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}CLEAN
+Dialogue: 0,0:00:27.24,0:00:28.44,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1626,540,1580,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}design
+Dialogue: 0,0:00:28.44,0:00:29.44,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1580,540,1534,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}QUALITY
+Dialogue: 0,0:00:28.44,0:00:29.44,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1626,540,1580,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}build
+Dialogue: 0,0:00:29.44,0:00:31.40,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1476,540,1430,0,240)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(0,140,\1a&H00&\3a&H50&\4a&H60&)}without the
+Dialogue: 0,0:00:29.44,0:00:31.40,Cap,,0,0,0,,{\q2\an2\fs140\fnMontserrat ExtraBold\c&H5CA3CB&\fscx100\fscy100\move(540,1580,540,1534,590,830)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(590,730,\1a&H00&\3a&H50&\4a&H60&)}HYPE
+Dialogue: 0,0:00:29.44,0:00:31.40,Cap,,0,0,0,,{\q2\an2\fs100\fnMontserrat ExtraBold\c&HFFFFFF&\fscx100\fscy100\move(540,1626,540,1580,850,1090)\fad(0,120)}{\1a&HFF&\3a&HFF&\4a&HFF&\t(850,990,\1a&H00&\3a&H50&\4a&H60&)}price tag
+Dialogue: 1,0:00:08.40,0:00:09.52,Label,,0,0,0,,{\fad(180,220)\fsp6}316L STAINLESS STEEL
+Dialogue: 1,0:00:10.00,0:00:11.26,Label,,0,0,0,,{\fad(180,220)\fsp6}SAPPHIRE CRYSTAL
+Dialogue: 1,0:00:11.90,0:00:14.26,Label,,0,0,0,,{\fad(180,220)\fsp6}JAPANESE NH36 AUTOMATIC
+Dialogue: 1,0:00:14.52,0:00:15.64,Big,,0,0,0,,{\q2\fad(220,220)\fsp6\blur4\t(0,700,0.5,\fsp0\blur0)}{\pos(540,960)}The difference?
+Dialogue: 1,0:00:24.71,0:00:25.82,Big,,0,0,0,,{\q2\fad(220,220)\fsp6\blur4\t(0,700,0.5,\fsp0\blur0)}{\pos(540,960)}No logo tax.
+Dialogue: 1,0:00:06.83,0:00:07.85,Pop,,0,0,0,,{\1a&HFF&}{\fad(0,200)\fscx140\fscy140\blur8\t(0,180,\fscx100\fscy100\blur0)\t(180,1400,\fscx106\fscy106)}{\c&H2B24E0&}{\pos(540,990)}{\frz45\p1}m 146 0 l 194 0 l 194 146 l 340 146 l 340 194 l 194 194 l 194 340 l 146 340 l 146 194 l 0 194 l 0 146 l 146 146{\p0}
+Dialogue: 1,0:00:33.20,0:00:35.70,Label,,0,0,0,,{\fad(180,0)\fsp6}{\pos(540,1500)}{\fs76\fsp10}SHOP — $360
+Dialogue: 1,0:00:33.40,0:00:35.70,Label,,0,0,0,,{\fad(180,0)\fsp6}{\pos(540,1610)}{\fs52\fsp8}ALVERAWATCHES.COM
+Dialogue: 1,0:00:00.00,0:00:01.65,Big,,0,0,0,,{\q2\fad(220,220)\fsp6\blur4\t(0,700,0.5,\fsp0\blur0)}{\pos(540,470)}{\fnGeist Black\fs100}What you're really\Npaying for.
+Dialogue: 0,0:00:06.83,0:00:07.85,Pop,,0,0,0,,{\fad(0,200)\fscx140\fscy140\t(0,180,\fscx100\fscy100)\t(180,1400,\fscx106\fscy106)\1a&HFF&\3c&H000000&\3a&H70&\bord26\blur30\shad0\pos(540,990)}{\frz45\p1}m 146 0 l 194 0 l 194 146 l 340 146 l 340 194 l 194 194 l 194 340 l 146 340 l 146 194 l 0 194 l 0 146 l 146 146{\p0}
+Dialogue: 0,0:00:05.82,0:00:06.54,Pop,,0,0,0,,{\fnGeist Black\fs155\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,168,1910,0,716)\frz21\t(0,716,\frz-78)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,358)}$
+Dialogue: 0,0:00:05.80,0:00:06.45,Pop,,0,0,0,,{\fnGeist Black\fs147\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,-53,1639,0,646)\frz-12\t(0,646,\frz-143)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,323)}$
+Dialogue: 0,0:00:05.75,0:00:06.60,Pop,,0,0,0,,{\fnGeist Black\fs147\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,-250,1414,0,845)\frz9\t(0,845,\frz46)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,422)}$
+Dialogue: 0,0:00:05.79,0:00:06.41,Pop,,0,0,0,,{\fnGeist Black\fs114\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,16,1235,0,614)\frz23\t(0,614,\frz55)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,307)}$
+Dialogue: 0,0:00:05.80,0:00:06.45,Pop,,0,0,0,,{\fnGeist Black\fs119\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,-61,879,0,648)\frz8\t(0,648,\frz8)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,324)}$
+Dialogue: 0,0:00:05.77,0:00:06.62,Pop,,0,0,0,,{\fnGeist Black\fs100\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,12,646,0,849)\frz12\t(0,849,\frz-47)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,424)}$
+Dialogue: 0,0:00:05.76,0:00:06.55,Pop,,0,0,0,,{\fnGeist Black\fs141\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,177,595,0,791)\frz-24\t(0,791,\frz-90)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,395)}$
+Dialogue: 0,0:00:05.80,0:00:06.46,Pop,,0,0,0,,{\fnGeist Black\fs96\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,386,625,0,653)\frz-2\t(0,653,\frz152)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,326)}$
+Dialogue: 0,0:00:05.80,0:00:06.59,Pop,,0,0,0,,{\fnGeist Black\fs124\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,620,580,0,794)\frz-10\t(0,794,\frz-70)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,397)}$
+Dialogue: 0,0:00:05.82,0:00:06.46,Pop,,0,0,0,,{\fnGeist Black\fs180\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,804,471,0,633)\frz-24\t(0,633,\frz-165)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,316)}$
+Dialogue: 0,0:00:05.79,0:00:06.51,Pop,,0,0,0,,{\fnGeist Black\fs114\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,1027,801,0,711)\frz29\t(0,711,\frz115)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,355)}$
+Dialogue: 0,0:00:05.78,0:00:06.63,Pop,,0,0,0,,{\fnGeist Black\fs90\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,1178,906,0,847)\frz-14\t(0,847,\frz137)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,423)}$
+Dialogue: 0,0:00:05.82,0:00:06.47,Pop,,0,0,0,,{\fnGeist Black\fs140\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,1188,1241,0,652)\frz30\t(0,652,\frz62)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,326)}$
+Dialogue: 0,0:00:05.76,0:00:06.47,Pop,,0,0,0,,{\fnGeist Black\fs91\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,1042,1394,0,710)\frz16\t(0,710,\frz-38)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,355)}$
+Dialogue: 0,0:00:05.76,0:00:06.50,Pop,,0,0,0,,{\fnGeist Black\fs121\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,982,1543,0,745)\frz-29\t(0,745,\frz-71)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,372)}$
+Dialogue: 0,0:00:05.80,0:00:06.61,Pop,,0,0,0,,{\fnGeist Black\fs107\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,810,1738,0,808)\frz22\t(0,808,\frz-80)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,404)}$
+Dialogue: 0,0:00:05.82,0:00:06.48,Pop,,0,0,0,,{\fnGeist Black\fs114\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,1056,2005,0,662)\frz-20\t(0,662,\frz21)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,331)}$
+Dialogue: 0,0:00:05.78,0:00:06.50,Pop,,0,0,0,,{\fnGeist Black\fs100\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,-229,882,0,720)\frz-5\t(0,720,\frz-131)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,360)}$
+Dialogue: 0,0:00:05.77,0:00:06.55,Pop,,0,0,0,,{\fnGeist Black\fs122\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,1446,1427,0,776)\frz-5\t(0,776,\frz125)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,388)}$
+Dialogue: 0,0:00:05.82,0:00:06.67,Pop,,0,0,0,,{\fnGeist Black\fs106\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,-202,1226,0,844)\frz-16\t(0,844,\frz3)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,422)}$
+Dialogue: 0,0:00:05.77,0:00:06.60,Pop,,0,0,0,,{\fnGeist Black\fs116\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,1010,490,0,829)\frz15\t(0,829,\frz-123)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,414)}$
+Dialogue: 0,0:00:05.75,0:00:06.42,Pop,,0,0,0,,{\fnGeist Black\fs157\c&H78F03C&\3c&H000000&\3a&H50&\bord4\shad0\move(540,1180,8,1544,0,670)\frz4\t(0,670,\frz-114)\fscx30\fscy30\t(0,200,\fscx100\fscy100)\fad(40,335)}$

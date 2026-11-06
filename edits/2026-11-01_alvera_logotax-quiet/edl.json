@@ -1,0 +1,463 @@
+{
+ "name": "ALVERA No.1 — logo tax — QUIET (premium)",
+ "brand": "alvera",
+ "format": "ads",
+ "canvas": [
+  1080,
+  1920
+ ],
+ "fps": 24,
+ "vo": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/vo_final.wav",
+ "vo_at": 1.8,
+ "text": [
+  {
+   "at": 8.4,
+   "end": 9.52,
+   "style": "Label",
+   "text": "316L STAINLESS STEEL"
+  },
+  {
+   "at": 10.0,
+   "end": 11.26,
+   "style": "Label",
+   "text": "SAPPHIRE CRYSTAL"
+  },
+  {
+   "at": 11.9,
+   "end": 14.26,
+   "style": "Label",
+   "text": "JAPANESE NH36 AUTOMATIC"
+  },
+  {
+   "at": 14.52,
+   "end": 15.64,
+   "style": "Big",
+   "text": "The difference?",
+   "pos": [
+    540,
+    960
+   ]
+  },
+  {
+   "at": 24.71,
+   "end": 25.82,
+   "style": "Big",
+   "text": "No logo tax.",
+   "pos": [
+    540,
+    960
+   ]
+  },
+  {
+   "at": 33.2,
+   "end": 35.7,
+   "style": "Label",
+   "text": "{\\fs76\\fsp10}SHOP — $360",
+   "pos": [
+    540,
+    1500
+   ],
+   "hold": true
+  },
+  {
+   "at": 33.4,
+   "end": 35.7,
+   "style": "Label",
+   "text": "{\\fs52\\fsp8}ALVERAWATCHES.COM",
+   "pos": [
+    540,
+    1610
+   ],
+   "hold": true
+  },
+  {
+   "at": 0.0,
+   "end": 1.65,
+   "style": "Big",
+   "text": "{\\fnGeist Black\\fs100}What you're really\\Npaying for.",
+   "pos": [
+    540,
+    470
+   ],
+   "why": "hook alone on screen; captions start when it leaves (never both at once)"
+  },
+  {
+   "at": 4.3,
+   "end": 5.95,
+   "style": "Label",
+   "text": "{\\an5\\fs96\\fsp12}$5,000–10,000",
+   "pos": [
+    540,
+    1180
+   ],
+   "why": "quiet price"
+  },
+  {
+   "at": 5.3,
+   "end": 5.95,
+   "style": "Label",
+   "text": "{\\an7\\bord0\\shad0\\fscx0\\t(0,420,0.6,\\fscx100)\\p1}m 0 0 l 746 0 l 746 6 l 0 6{\\p0}",
+   "pos": [
+    167,
+    1177
+   ],
+   "why": "strike-through draws across the price after 'grand?'"
+  }
+ ],
+ "sfx": [
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/mixkit-cinematic-glass-hit-suspense-677.wav",
+   "at": 0.0,
+   "src_in": 0.0,
+   "len": 2.0,
+   "volume_db": -13,
+   "why": "soft glass hit on frame 1",
+   "fade_out": 1.2
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/mixkit-metal-hit-woosh-1485.wav",
+   "at": 0.0,
+   "src_in": 0.0,
+   "len": 0.48,
+   "volume_db": -18,
+   "why": "steel shimmer on the reveal"
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/Spooky Wind.wav",
+   "at": 0.0,
+   "src_in": 1.8,
+   "len": 8.3,
+   "volume_db": -17,
+   "why": "low air bed (quiet, under VO)",
+   "fade_in": 0.8,
+   "fade_out": 1.0
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/Spooky Wind.wav",
+   "at": 7.3,
+   "src_in": 1.9,
+   "len": 7.0,
+   "volume_db": -17,
+   "why": "air bed continues, cut dead on black",
+   "fade_in": 1.0
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/07 Subsonic A.wav",
+   "at": 3.86,
+   "src_in": 0.0,
+   "len": 1.3,
+   "volume_db": -12,
+   "why": "sub thump on the punch-in, \"cost\"",
+   "fade_out": 0.8
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/mixkit-cinematic-wind-swoosh-1471.wav",
+   "at": 5.43,
+   "src_in": 0.0,
+   "len": 1.0,
+   "volume_db": -15,
+   "why": "air into the bracelet shot (peak on cut)",
+   "fade_out": 0.4
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/BUILD-UP.mp3",
+   "at": 12.67,
+   "src_in": 0.0,
+   "len": 1.63,
+   "volume_db": -2,
+   "why": "riser under \"same movements\", peaks on the cut to black, cut dead"
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/06 Evolve_Boom Hint of Metal.wav",
+   "at": 15.35,
+   "src_in": 0.0,
+   "len": 3.2,
+   "volume_db": -5,
+   "why": "metal boom on \"Branding and markup\" (peak on cut)",
+   "fade_out": 1.6
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/Spooky Wind.wav",
+   "at": 16.1,
+   "src_in": 2.2,
+   "len": 4.785,
+   "volume_db": -19,
+   "why": "air bed returns",
+   "fade_in": 1.2,
+   "fade_out": 1.2
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/whoosh-6316.mp3",
+   "at": 17.59,
+   "src_in": 0.0,
+   "len": 0.45,
+   "volume_db": -15,
+   "why": "short air on the cut"
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/rm whoosh.wav",
+   "at": 18.74,
+   "src_in": 0.0,
+   "len": 1.2,
+   "volume_db": -14,
+   "why": "low whoosh into the push-in (peak on cut)",
+   "fade_out": 0.4
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/Spooky Wind.wav",
+   "at": 19.7,
+   "src_in": 1.9,
+   "len": 5.01,
+   "volume_db": -19,
+   "why": "air bed, cut dead on black",
+   "fade_in": 1.0
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/04 Grand Hit B.wav.wav",
+   "at": 24.15,
+   "src_in": 0.0,
+   "len": 2.4,
+   "volume_db": -7,
+   "why": "hit on \"No logo tax\" black (peak on cut)",
+   "fade_out": 1.2
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/mixkit-cinematic-transition-wind-swoosh-1468.wav",
+   "at": 25.54,
+   "src_in": 0.0,
+   "len": 0.9,
+   "volume_db": -17,
+   "why": "air out of the black",
+   "fade_out": 0.3
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/Spooky Wind.wav",
+   "at": 25.84,
+   "src_in": 2.0,
+   "len": 5.9,
+   "volume_db": -19,
+   "why": "air bed",
+   "fade_in": 0.6,
+   "fade_out": 1.0
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/Short Whoosh.mp3",
+   "at": 31.23,
+   "src_in": 0.0,
+   "len": 1.0,
+   "volume_db": -15,
+   "why": "air into the dissolve (different whoosh from 4.13)",
+   "fade_out": 0.5
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/11 Universe Boom A.wav",
+   "at": 31.58,
+   "src_in": 0.0,
+   "len": 4.5,
+   "volume_db": -9,
+   "why": "deep boom peaking as the ALVERA logo fades in",
+   "fade_out": 2.2
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/Lens flare transition sound effect.mp3",
+   "at": 32.81,
+   "src_in": 0.0,
+   "len": 0.86,
+   "volume_db": 3,
+   "why": "shimmer as SHOP — $360 and the URL appear",
+   "fade_out": 0.3
+  },
+  {
+   "path": "/Users/nils/Documents/claude-alvera/video-editor/assets/sfx/smooth_pencil_sfx.MP3",
+   "at": 5.3,
+   "src_in": 0,
+   "len": 0.6,
+   "volume_db": -14,
+   "fade_out": 0.2,
+   "why": "soft stroke as the line strikes the price"
+  }
+ ],
+ "segments": [
+  {
+   "at": 0,
+   "end": 3.86,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/01a.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "You ever wonder why most luxury watches",
+   "why": "steadiest top-down reveal, tick under the first half second"
+  },
+  {
+   "at": 3.86,
+   "end": 6.46,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/01b.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "cost five to ten grand?",
+   "why": "same shot punched in on the dial, on 'cost'"
+  },
+  {
+   "at": 6.46,
+   "end": 9.56,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/02r.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "It's not the materials. Most use the same steel,",
+   "why": "sharpest bracelet shot"
+  },
+  {
+   "at": 9.56,
+   "end": 11.29,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/03.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "the same sapphire crystal,",
+   "why": "tightest crystal shot"
+  },
+  {
+   "at": 11.29,
+   "end": 14.3,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/04.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "even the same movements you'll find in these Alvera watches.",
+   "why": "large logo on dial, ticking rises under it"
+  },
+  {
+   "at": 14.3,
+   "end": 15.67,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/black.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "The difference?",
+   "why": "pattern break: type on Ink, ticking only"
+  },
+  {
+   "at": 15.67,
+   "end": 17.68,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/05b.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "Branding and markup.",
+   "why": "C7333 sharp dial, ALVERA logo upright — on \"branding and markup\" (replaces soft C7323)"
+  },
+  {
+   "at": 17.68,
+   "end": 19.43,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/06r.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "What most people don't realize is,",
+   "why": "draped bracelet from 0915 · rotated 180° so ALVERA on the dial is not upside down"
+  },
+  {
+   "at": 19.43,
+   "end": 22.65,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/07.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "you can get the same luxury feel, fully mechanical,",
+   "why": "0915 opener, stabilised, slow push"
+  },
+  {
+   "at": 22.65,
+   "end": 24.71,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/08r.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "for a fraction of the price.",
+   "why": "sharp dial on fabric, slow pull-out · rotated 180° so ALVERA on the dial is not upside down"
+  },
+  {
+   "at": 24.71,
+   "end": 25.84,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/black.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "No logo tax,",
+   "why": "second type-on-Ink beat, answers the first; low hit"
+  },
+  {
+   "at": 25.84,
+   "end": 27.44,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/09.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "no stress wearing it out,",
+   "why": "C7358 tight dial in the box (replaces the phone wrist photo)",
+   "xfade": 0.5
+  },
+  {
+   "at": 27.44,
+   "end": 29.81,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/10b.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "just clean design, quality build,",
+   "why": "C7331 close, near-upright on fabric — different scale/angle from the wide box shot that follows (C7319 looked too similar)"
+  },
+  {
+   "at": 29.81,
+   "end": 31.7,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/11.mp4",
+   "in": 0,
+   "graded": true,
+   "line": "without the hype price tag.",
+   "why": "box top-down, bookends the opener"
+  },
+  {
+   "at": 31.7,
+   "end": 35.7,
+   "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-11-01_alvera_logotax-quiet/elements/clips/12L.mp4",
+   "in": 0,
+   "graded": true,
+   "xfade": 0.6,
+   "line": "",
+   "why": "C7310 small watch on navy, pull-out, white wordmark fades in; no picture card"
+  }
+ ],
+ "fonts": {
+  "Cap": [
+   "Helvetica Neue Medium",
+   66
+  ],
+  "Big": [
+   "Helvetica Neue Medium",
+   92
+  ],
+  "Label": [
+   "IBM Plex Mono Medium",
+   50
+  ],
+  "Pop": [
+   "Helvetica Neue Medium",
+   120
+  ]
+ },
+ "caption_style": {
+  "replace": {
+   "five to ten grand?": "5-10K?"
+  },
+  "lead": 0.2,
+  "bottom": 1560,
+  "slide": 14
+ },
+ "music": {
+  "path": "/Users/nils/Documents/Nils/music/Code Blue.mp3",
+  "src_in": 0.0,
+  "volume_db": -16,
+  "fade": 3.5,
+  "duck": true
+ },
+ "gradients": [],
+ "overlays": [],
+ "caption_hide": [
+  [
+   4.2,
+   6.0
+  ]
+ ],
+ "ass_raw": [
+  "Dialogue: 0,0:00:04.30,0:00:05.95,Label,,0,0,0,,{\\an5\\pos(540,1180)\\fs96\\fsp12\\fad(180,220)\\1a&HFF&\\3c&H000000&\\3a&H60&\\bord24\\blur26\\shad0}$5,000–10,000"
+ ]
+}

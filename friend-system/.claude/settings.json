@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(bash setup.sh:*)", "Bash(~/.cache/video-editor/whisperx-venv/bin/python:*)", "Bash(python3:*)", "Bash(bash scripts/*:*)", "Bash(ffmpeg:*)", "Bash(ffprobe:*)",
+      "Bash(tools/bin/ffmpeg:*)", "Bash(tools/bin/ffprobe:*)", "Bash(npx remotion:*)", "Bash(cp:*)", "Bash(mkdir:*)", "Bash(ls:*)", "Bash(cat:*)", "Bash(grep:*)", "Bash(find:*)", "Bash(mdfind:*)", "Bash(mdls:*)", "Bash(du:*)", "Bash(sleep:*)", "Bash(nohup:*)",
+      "Edit(./**)", "Write(./**)"
+    ],
+    "deny": ["Bash(rm -rf /*)", "Bash(rm -rf ~)", "Bash(sudo:*)"]
+  },
+  "hooks": {
+    "SessionStart": [{"hooks": [{"type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/setup.sh\" --check"}]}]
+  }
+}

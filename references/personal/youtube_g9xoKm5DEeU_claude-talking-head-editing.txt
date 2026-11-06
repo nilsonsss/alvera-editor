@@ -1,0 +1,1182 @@
+In this video, I'm gonna show you how I created
+this viral minimal talking head edit using only Claude.
+And yes, that's right.
+You won't need Hicksfield
+and you won't need any other paid plugins.
+The only thing you need is your Claude plan.
+And I'm gonna show you how you can set
+everything up from scratch.
+First, I'm gonna break down what this minimal style
+is made of and teach you the 10 principles
+that make up cinematic edits like this one.
+Then I'll show you how we train Claude
+on this editing style and the training workflow
+that actually gets you good edits out of Claude.
+And finally, I'll show you how to use this skill
+step-by-step to plan the edit,
+create the animations and package it all together
+with premium sound design.
+By the way, if you're new to AI video editing
+and you wanna learn the basics of how the AI tools work
+and how you can create viral edits using only AI,
+check out the AI Editing Fundamentals Masterclass
+inside of Ultimate Editors.
+The link is down below.
+But without further ado, let's dive right in.
+Before I show you how to train Claude
+on creating stunning edits like this one,
+first, I need to teach you what makes this edit so special.
+You see, this premium educational editing style
+looks luxurious and premium.
+It's special, it's artistic, it's high production,
+and it's addictive to watch.
+This is the exact style that clients pay editors
+$100 per short form video for.
+And that's an easy $3,000 a month with just one client.
+Now, if we analyze this editing style as a video editor,
+it really boils down to 10 fundamental editing principles
+that make it up.
+That might seem like a lot,
+but once we break it down,
+you're gonna see how easy these are.
+The first principle is the obvious one.
+It's the on-screen captions design.
+The text in this style is special
+because it emphasizes the important words.
+To do this, Arthur uses two kinds of fonts,
+a simple sans font for the main text.
+In this case, he's using enter.
+And a secondary script or serif font for the special text.
+In this case, he's using Playfair italic.
+But what makes the text special isn't the font,
+it's the way he places it.
+There's no fixed pattern here,
+but there is simple logic.
+He looks at the line he's about to write out,
+which is usually five words or less.
+He picks out the most important words in that line,
+makes them bold,
+either bold sans or bold serif,
+and places them in the center.
+Then he looks for gaps around that line,
+above it or under it,
+and places the other words there at a smaller scale.
+And by combining these two fonts with that placement logic,
+we get really premium text designs like these.
+The second principle is his B-roll and text designs.
+To choose the right B-roll,
+Arthur divides his script into small segments
+and finds B-roll that shows what he's talking about.
+If he mentions fighting and resisting,
+he's gonna find B-roll of a guy fighting
+and use it as the background.
+But he doesn't just drop the B-roll in,
+he applies a light paper texture to it,
+darkens the edges,
+and even blurs the edges a little,
+so the viewer focuses on the main focal point of the B-roll.
+Then finally, and most importantly,
+the text is placed on top of the B-roll
+using the same cinematic text logic
+from the first principle,
+so it describes the scene.
+The third principle is similar,
+but slightly different.
+These are his painting animations,
+and these are my favorite.
+Arthur uses paintings with text
+to deliver his philosophical points,
+and it's just pure art.
+He finds a painting that describes
+what he's talking about,
+then he applies a paint and rough paper texture
+to the painting to make it feel more real.
+He adds cinematic text
+around the painting's main subject
+to describe the scene even more,
+and tops it all off
+with a quick camera slide-in animation
+to reveal it.
+This is just the most brilliant way
+to describe a scene.
+The fourth principle
+is the first kind of animation that we see.
+It's his line and text animations.
+In these scenes,
+there's a line that leads up to the text,
+gets interrupted by it,
+and then continues the thought
+into other text
+that's related to the first.
+To create them,
+we start off with either a black
+or white background
+with a paper texture on it.
+Then he draws out a simple line
+in an accent blue color,
+and he places cinematic text
+to interrupt it.
+The cameras track
+where the line goes,
+so the viewer follows
+exactly what Arthur is saying.
+The fifth principle
+is very similar,
+but it's his line
+and illustrations animations.
+These start with the same background
+and the same line,
+but now the line leads
+into illustrations.
+Sometimes the line draws horizontally
+with a white dot
+to mark where the object is,
+cinematic text to describe it,
+and an illustration like this one
+at the bottom to show it.
+Other times,
+he starts the line with text,
+then draws the line
+in a zigzag
+and pans the camera
+to reveal objects
+on both sides of it.
+He uses this one
+when he's showing progression
+through multiple phases,
+and sometimes he'll even
+have the line lead straight
+up to the subject of the scene.
+And by the way,
+understanding these principles
+of how this style is made
+is super important
+if you want to get stunning results
+like this later in the video.
+So let's go ahead
+and wrap up the last five
+and show you how we do that.
+The sixth principle
+is text-centric scenes.
+They start with either
+a white or a blue background
+with a very rough
+paper texture on it.
+Then there's two quotation marks
+around the center of the screen
+and cinematic text in the middle
+that writes out
+what the scene is saying.
+It's very simple
+and straight to the bottom.
+The seventh principle
+is where things get interesting.
+These are the center illustration scenes
+where an illustration
+takes up the center of the screen
+with text around it.
+Arthur takes the main idea
+of a script,
+creates an illustration
+that shows it,
+let's say it's a person,
+and places it on his
+white paper textured background
+in a rough,
+painted, noisy texture.
+It takes up the lower half
+of the screen
+and bleeds into the upper middle.
+And it always looks so abstract
+with these edges
+that lead into the rest of the scene.
+Then he uses the rest of the scene
+for cinematic text
+related to the subject.
+Sometimes it's a top-down image
+of a brain
+or a circular pattern
+made of thin lines
+with clean text around it.
+And my favorites
+are the side profiles of characters
+where Arthur uses
+a rough cloth texture
+to contrast the character
+against the background
+so it grabs attention.
+There's a lot of scenes
+in this category,
+but they all fit the Arthur look
+by following the same textures,
+the same edges,
+and the same colors.
+The eighth principle
+is the side illustration
+and text scenes.
+These use the sides of the screen
+to deliver the message.
+It's the same textured background
+and the same abstract characters,
+but now they sit on one side
+of the screen
+with cinematic text
+on the other side
+so the scene looks complete.
+Sometimes it's a half circle
+with a rough cloth texture
+on the left side of the screen
+with clean text
+rotating around it.
+Arthur uses these scenes
+whenever he wants to show
+two elements
+at the same time.
+Finally,
+the last two principles
+are rare but useful.
+The ninth principle
+is the object and text scene
+where Arthur shows
+a single element
+with text around it
+as a part of the story,
+paper background,
+cinematic text around the element,
+and rough reveal animations.
+And the tenth principle
+is the graph and statistics scenes
+where Arthur uses graphs
+to show the viewer
+what the numbers look like.
+He uses a flat dark background
+with a texture
+and a grid with thin white lines
+that glow to set up the graph.
+Typically,
+he also uses a blue ball
+to represent a line
+with the camera
+following it as it moves.
+Now,
+these ten principles
+all come together
+in one video
+to form the clean premium
+minimal style
+that you guys know and love.
+And in a few minutes,
+you're gonna watch Claude
+build these exact scenes
+from scratch.
+So now,
+instead of trying to figure out
+how we can create
+all of this ourselves,
+we're gonna train Claude
+on this exact style
+and teach it
+to create these edits for us.
+Now,
+this might make you wonder,
+then,
+Joseph,
+why did you just spend
+five minutes teaching me
+how this style is gonna be made
+if I'm not gonna be
+the one making it?
+The main reason is because
+if you simply don't know
+how to create good videos,
+you're only gonna be using AI
+to create bad videos.
+You need to fundamentally understand
+what makes these designs good,
+what makes this video
+such a good video to watch,
+and ultimately,
+what makes a good short-form video.
+All of this
+so that you can use AI
+to create stunning videos.
+Look,
+if you're finding it hard
+to learn all these
+viral editing styles in 2026
+and learn how to use AI
+to create them,
+we spent the last two years
+building Ultimate Editors 2.0
+for editors like you.
+It's a step-by-step program
+that teaches you
+how to edit viral videos in 2026
+and how to create
+stunning edits with AI.
+Inside,
+you're gonna find
+step-by-step courses
+on the four viral editing styles
+of 2026.
+The cinematic editing style,
+the minimal animation style,
+the viral SaaS motion design style,
+and even how to edit
+viral talking head videos.
+And we go deep
+into the psychology
+of what makes a good edit good
+and how you can create
+stunning edits as well.
+You see,
+our students join
+as complete beginners
+and graduate creating
+stunning edits like these
+in just a few months.
+And because of our $2,000
+per month editor blueprint,
+they all go on
+to make thousands of dollars
+every month
+with video editing.
+And if you're impressed
+with how good AI edits
+can look,
+our AI Editing Fundamentals
+masterclass teaches you
+every AI tool from scratch
+and gives you
+the skill files
+and courses
+to create
+Iman Gaji videos,
+Vox documentaries,
+and viral short-form edits
+all using AI.
+The only problem is
+there's around two weeks left
+before we close down
+the program forever
+because we're building
+something even bigger.
+So we dropped the price down
+from $1,200
+to just $299
+for lifetime access
+to the courses
+in Ultimate Editors 2.0.
+You only have 14 days left.
+So click the link down below
+and join while you still can.
+But with all this being said,
+let's go back to the video.
+Now that we understand
+how this style is put together,
+let me show you
+how you can train Claude
+on an editing style
+just like this one
+and get it to recreate it perfectly.
+Whenever you want to train Claude
+on a certain editing style,
+this is the workflow
+that gets it
+to fully understand
+every principle of that style.
+This is how you stop
+getting slopped like this
+and actually get viral edits
+like these.
+Check it out.
+First, I head into
+Arthur's Instagram
+and search for 20
+of the most premium edited videos
+in his style
+and download all of them.
+Then I watch through
+each of these 20 videos
+and break them down
+from an editor's perspective.
+Every time a scene looks good,
+I ask myself
+why the creator used this scene?
+Why this design?
+Why these colors?
+Why these effects?
+And why these animations?
+By doing this for every scene,
+you're going to understand
+how this style is composed
+from a video editor's perspective.
+That's when I go to Figma
+and I create a new board.
+I watch through
+every edit again
+and every scene that I like,
+I screenshot it
+and I place it
+on the board like so.
+If you do this
+for every single scene you like,
+you'll end up with
+around 130 inspiration pieces
+that all look amazing
+in this style.
+Now, this is the important part.
+We look at these 130 pieces
+and start categorizing them
+into the 10 principles
+that we just went through.
+First, we take all the text scenes
+and place them here.
+Then we zoom in on one text scene
+and break it down.
+What makes it up?
+What are the fonts,
+the colors,
+the sizes,
+and the patterns?
+Then we go back
+and we do the same thing
+for the second principle.
+We collect all the B-roll scenes
+and break them down.
+And we do that again
+and again
+for every single principle
+until we end up with this.
+A full board
+that breaks down
+how this entire editing style
+is made from scratch.
+Now, obviously,
+this requires a deep understanding
+of video editing
+and viral design.
+So it might be hard
+if you're still new,
+but this board
+is the most important part
+of the whole training.
+So now we have 20 videos
+in the style that we like
+and we have a full board
+breaking down
+what this style is made of.
+So we head into Claude,
+drop in the 20 reference videos
+that we just downloaded
+and drop in a link
+to the Figma board
+that we just built.
+Then I give Claude
+this prompt.
+I want to teach you
+a new editing style.
+Analyze this clean,
+premium,
+minimal editing style
+using the 20 reference videos.
+Start by creating
+a word-by-word transcript
+and a frame-by-frame breakdown
+of every single video
+to study three main things.
+First,
+where the animations are placed
+in correlation with the script.
+Second,
+how the design is composed
+and what elements make it up.
+And third,
+the animation logic.
+How long the animations are
+and what they feel like
+so you can recreate them.
+Then,
+use the Figma board
+as a reference
+that breaks down
+the elements of the style
+and master the style
+using both
+so that I could prompt you
+to recreate it.
+This is where Claude
+takes those 20 videos,
+breaks them down
+frame-by-frame
+and picks out
+every frame with an animation
+and studies the animation's design,
+its logic,
+and where it sits
+in the script.
+And the most important part
+is by doing this,
+Claude also builds
+a huge library of references
+that it can use later
+to create better designs.
+Trust me,
+this makes a huge difference.
+Then Claude goes
+through the Figma board
+and understands the logic
+behind every design
+and every animation
+and what makes them amazing.
+That's how it understands
+what the style
+is really made of.
+And finally,
+it packages everything
+into this skill
+called the Arthur Brooks
+minimal animation skill.
+This skill breaks down
+every detail
+that makes the style up
+from the sizing,
+the layout,
+the textures,
+the shapes,
+the colors,
+and everything in between.
+And on top of that,
+it extracts 225 animations
+from the 20 videos
+and saves every single one
+into folders
+with its designs
+as a reference
+and the sheet
+of the keyframes
+that make it up.
+So think of it like this.
+The reference videos
+are how Claude learns
+the logic behind the animations
+and the Figma board
+is how Claude learns the design.
+And together,
+that's how Claude mastered
+the Arthur Brooks
+minimal animation style.
+And this is how you can
+train Claude
+on any style.
+Now I'm sure you're wondering
+where you can download
+these skill files.
+And as of right now,
+we aren't sharing them
+since we're actually saving them
+for the next big thing
+that we're building.
+But if any of this is confusing,
+this is exactly what we break down
+in the AI Editing Fundamentals
+Masterclass
+in Ultimate Editors 2.0.
+If you've never used
+the AI programs before,
+we teach you how every tool
+works from scratch.
+And if you don't have
+any skill files,
+we give you the skills
+for the viral edits
+that you guys know and love.
+The Imangaji style,
+the Vox style,
+and the viral short form edits.
+And most importantly,
+we show you exactly
+how we trained Claude
+on each of those styles
+so you can go and train it
+on any style that you want
+on your own.
+There's only 14 days left
+before we close.
+So check it out.
+The link is down below
+while you still can.
+But now that you understand
+how this style is made
+and Claude has been trained on it,
+it's finally time to put
+all of this to the test
+and create a full
+Arthur Brooks edit
+inside of Claude
+from scratch.
+Let's start by loading up Claude
+and setting the model
+to Opus 5.5.
+And I'm going to be using
+extra for this edit.
+For the raw footage,
+I went on YouTube
+and found Arthur's podcast
+with Chris Williamson.
+Then I pulled out this clip
+about the four career patterns
+that people follow.
+This is going to be a raw clip.
+So I take that clip
+and I drag it into Claude
+and I prompted this.
+I want you to use
+the Arthur Brooks
+minimal animation skill
+to edit this short form clip
+in his premium clean style.
+But I don't just leave it at that
+because lazy inputs with AI
+gets you lazy results.
+I know my clip
+has silences baked into it
+that need to be removed.
+And before we edit anything,
+I want to plan out the edit
+just how Arthur would.
+Because I've noticed
+that if you let AI
+do the planning on its own,
+it's actually not creative enough
+to do a great job
+right off the bat.
+So I added this to my prompt.
+Start by creating
+a word-by-word transcript
+at the millisecond level
+and cut out all silences,
+leaving 30 milliseconds of panic.
+On top of that,
+hand me a document
+with the script of my raw video
+on the right side
+and text boxes on the left
+with recommended designs
+pulled from the
+Arthur Brooks reference folder
+so that I can plan out
+and decide what needs
+to be built for each scene.
+Then I click continue.
+The first thing Claude does
+is load up my skill.
+Then it studies the audio
+of the clip,
+transcribes it,
+and starts building the document
+with the transcript
+on the right side.
+Then check this out.
+Remember those 20 videos
+that we trained it on?
+Remember how we told it
+to study which animations
+are placed to wear
+in the script?
+It now uses Arthur's own logic
+to recommend scene designs
+based on what Arthur
+typically uses in his videos.
+Then it sends me this.
+I open the document,
+I can read the script
+and watch the clip
+on the right side,
+and on the left,
+I can select the recommended
+designs for each scene
+and even write out
+my own notes.
+Now this is the most important
+step of the whole edit,
+so stay with me.
+Claude can build
+the animations pretty easily,
+but without a high quality
+edit plan,
+the animations just won't
+come together
+into an amazing edit.
+So let me walk you through
+exactly how I planned
+this one out.
+This clip opens with Arthur
+saying,
+There's four career patterns
+psychologically.
+For this,
+I keep it on arrow
+with captions
+because this helps
+the viewer connect
+with Arthur
+before anything happens
+on the screen.
+Then he says,
+There's linears
+who just kind of go
+up and up and up
+and up and up
+and up in their careers.
+So I pick the graph animation
+Claude recommended,
+which is a line
+that climbs one step
+every time he says up.
+This is going to be
+the first visual
+that the viewer sees
+and it's a great one
+to get him hooked.
+Then he moves
+into the second type.
+There are transitories
+who kind of just skip around
+all over the place.
+Here,
+I go back to A-Roll
+with captions
+because he's transitioning
+into a new type
+and the viewer needs
+to see his face again.
+Then he describes
+that transitory.
+I'm going to be a barista
+and I fell in love
+with a girl in San Diego.
+So I go with
+a painting animation
+to show the viewer
+exactly what he's talking about.
+And by the way,
+notice the patterns here.
+Whenever Arthur
+announces a new type,
+we stay on his face.
+Whenever he describes it,
+we actually show it.
+Then he says,
+which is like slow and steady.
+So I keep him on A-Roll
+for the first half
+and switch to a graph animation
+midway through,
+a long flat line
+for slow and steady.
+And then he says,
+My dad had the same job
+for 42 years.
+And since he's describing a person,
+I go with the character
+call-out animation.
+Then he gets to the spirals.
+But a lot of people
+who are watching this show
+are spirals
+for every 7 to 12 years.
+So I chose
+a center illustration animation
+of a spiral.
+Then he describes
+what spirals need to do.
+Take their career down
+to the studs
+and start again.
+Here we tell the story
+with B-roll
+so it's easy
+for the viewer to feel it.
+Then he tells his own story.
+The first turn is hardest.
+For me,
+leaving the French horn
+and becoming a scientist,
+that was brutal.
+So I wrap his point up
+with an object call-out animation
+with images of him.
+And then he jokes,
+Maybe in 10 years,
+I'll be a circus clown
+or firefighter or something.
+So I go with
+a centered illustration
+of Arthur
+with a circle cycling
+through his options.
+Then for his big point,
+That's what it means
+to live an entrepreneurial life
+where you're pursuing
+your calling
+because you have
+the agility
+and the courage.
+I use a line
+and text animation
+with the line
+running through,
+calling,
+agility,
+and courage.
+And at the very end,
+To be an entrepreneur
+in the enterprise
+and the business of life,
+I end the video
+on a text-centric scene
+with the quotation marks around it.
+All that I'm doing here
+is using my own experience
+as a video editor
+to choose the scenes
+that make this video
+the most fun to watch.
+So every scene is balanced
+and the video flows well
+and it's easy
+for the viewer to watch.
+Now with the plan complete,
+I click on copy plan
+and paste it
+into the prompt box
+and simply ask Claude
+to build all the animations
+and create the edit.
+I also tell it
+that if it needs any assets,
+it can use my Chrome browser
+or any files it needs.
+And it can also prompt me
+if there's anything
+it can't find.
+So again,
+raw videos go in,
+the planning document comes out,
+we plan the edit,
+we send it back in,
+and now Claude builds it.
+First, Claude analyzes
+our edit plan
+to understand
+what it needs to create
+and then it finds
+all the references
+that we chose
+from the Arthur reference folder
+and prepares the exact designs
+it needs to copy.
+Then it creates
+an asset list
+which is the list
+of every asset it needs
+for this edit
+and goes and fetches them.
+In my case,
+it gathered the paintings
+from Wikipedia,
+the stock footage
+from Pexels,
+and even pictures
+of Arthur from Wikipedia.
+Again,
+it's doing all of this
+without me touching
+a single thing.
+Once it has every asset,
+it starts creating the edit,
+starting with the A-roll captions,
+it downloads the fonts
+it needs from Google,
+captions the entire video,
+and applies
+the cinematic text design.
+Then it builds the edit
+scene by scene.
+The painting scene,
+the character scene,
+the B-roll with text,
+the element callout,
+the two graph scenes,
+the line and text scene,
+the spiral illustration,
+and the final Arthur illustration.
+After all of those
+are built in re-motion,
+it renders the full video
+and sends me
+the first version to look at.
+Now the first draft
+was looking amazing,
+but I always keep in mind
+that the first draft
+is going to be
+60-70% of the way there.
+It's our job
+to watch the video
+and give it detailed revisions
+to make it better and better.
+In my case,
+I had six simple revisions.
+First,
+the text design
+in the first scene
+wasn't good,
+and I wanted the word
+psychology up on the same scene.
+Second,
+there was a rough cut
+between two animations.
+Third,
+the paint texture was heavy
+and didn't move
+with the animation.
+Fourth,
+there was a bad cut
+at second 24.
+Fifth,
+the spiral animation
+needed to stay
+on the screen longer.
+And sixth,
+we needed quotation marks
+on the text scene at the end.
+So I told Claude
+to make all six of the changes
+and pretty quickly,
+it sent me back
+the revised video.
+Then it asked me
+if the video was complete
+and ready for sound design
+or if there were
+any more revisions.
+I watched through it
+and it looked perfect.
+So I told it,
+go ahead
+and continue the sound design.
+And remember how Claude
+has 20 of Arthur's
+best videos
+in the reference folder?
+Well,
+it used them to figure out
+which sound effects
+go where
+and what the music sounds like.
+So it adds
+a cinematic music track,
+clicks for text,
+highlighters for graphs,
+whooshes for transitions
+and every other sound effect
+that it needs.
+And it renders out
+the complete video.
+And ladies and gentlemen,
+this is the final result
+that we ended up with
+after training Claude
+on the Arthur Brooks
+minimal animation style.
+There's four career patterns
+psychologically.
+There's linears
+who just kind of go
+up and up and up
+and up and up and up
+and up in their careers
+and they only change
+when something is better.
+There are transitories
+who kind of just skip around
+all over the place.
+I'm going to be a barista
+and I fell in love
+with a girl in San Diego.
+There are what's called
+Expert,
+which is like slow and steady.
+My dad had the same job
+for 42 years,
+for example.
+And the reason is
+because it was secure
+and because it was low stress.
+A lot of people
+who are watching this show
+are spirals.
+For every 7 to 12 years,
+what they need
+is to take their career
+down to the studs
+and start again.
+The first turn is hardest.
+For me,
+leaving the French horn
+and becoming a scientist,
+that was brutal.
+Going back
+and getting a PhD
+when I didn't know
+what I was doing,
+it was really,
+really, really hard.
+Second turn, easier.
+I'm on my fourth turn right now.
+Who knows?
+Maybe in 10 years,
+I'll be a circus clown
+or firefighter or something.
+But the whole point is
+that that's what it means
+to live an entrepreneurial life
+where you're pursuing
+your calling
+because you have the agility
+and the courage
+to be an entrepreneur
+in the enterprise
+and the business of life.
+Now, I'm sure you're blown away
+at how Claude could create
+such an awesome edit,
+but I'm also sure
+you're wondering
+how long that took
+and how much it cost.
+The only cost was
+my $100 per month Claude plan,
+and I think you could even do it
+on the $20 per month plan as well.
+As for the time,
+here's the quick breakdown.
+Sending in the raw video
+and making the cuts
+and creating the planning document
+took around 15 minutes.
+Planning the edit myself
+took another 15 minutes.
+Creating the entire edit,
+the text,
+the lines,
+the graphs,
+the paintings,
+the illustrations,
+everything all together
+took Claude around 60 minutes.
+The revisions took 10 minutes
+and the sound design
+and music took 15 minutes.
+So altogether,
+I uploaded a raw video,
+did 15 minutes of planning,
+and in two hours,
+Claude created
+this stunning viral edit.
+But the next time I do this,
+it's going to take
+almost half the time
+since Claude
+is only going to get better
+at doing this.
+If there's one big takeaway
+from this video,
+it's this.
+As a video editor,
+you need to understand
+how good content
+is edited in 2026
+and you need to learn
+how to do that using AI.
+Right now,
+being a good editor
+is about learning
+how good videos are edited
+and using AI to create them.
+But in 2027,
+the editors who learned
+AI video editing
+are going to be so far ahead
+that for the editors
+who didn't,
+it's going to be
+way too late to catch up.
+This is why
+with only 14 days left,
+it's the best time
+to join Ultimate Editors 2.0.
+Inside,
+we teach you
+the design fundamentals
+of good edits
+and the editing psychology
+behind good short-form videos.
+We teach you
+how to edit
+cinematic short films,
+minimal animations
+and viral
+SAS motion design videos
+and viral talking head videos.
+Our AI Editing Fundamentals
+masterclass teaches you
+everything about
+AI video editing
+from A to Z.
+And we give you
+the skills and courses
+to edit
+Iman Gaji videos,
+Fox documentaries
+and viral short-form videos
+all using AI.
+And finally,
+we even show you
+how to make
+$2,000 a month
+as a video editor
+in 2026
+and actually
+land high-paying clients.
+Look,
+you only have
+14 more days
+to join
+Ultimate Editors 2.0
+and you can now
+get lifetime access
+to the courses
+for just $299.
+This includes
+all the AI modules
+and all the skills
+you need.
+After that,
+the program closes forever
+and there's no other place
+that teaches you
+the viral editing styles
+of 2026
+and how to do them
+with AI.
+This is your last chance,
+so take it
+while you can.
+Join Ultimate Editors 2.0,
+the link is down below.
+I'll see you guys inside.
+There's less than 14 days left.

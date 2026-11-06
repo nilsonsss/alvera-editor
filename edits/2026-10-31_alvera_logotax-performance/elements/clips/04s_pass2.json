@@ -1,0 +1,18 @@
+{
+ "src": "/Users/nils/Documents/claude-alvera/video-editor/edits/2026-10-31_alvera_logotax-performance/elements/clips/04.mp4",
+ "in": 0,
+ "dur": 3.01,
+ "fps": 24,
+ "speed": 1.0,
+ "canvas": [
+  1080,
+  1920
+ ],
+ "punch": 1.04,
+ "push": [
+  1,
+  1
+ ],
+ "smooth": 1.0,
+ "track_w": 720
+}

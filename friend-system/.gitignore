@@ -1,0 +1,9 @@
+projects/*/raw/
+projects/*/outputs/
+projects/*/graphics/matte/
+projects/_remotion/node_modules/
+projects/_remotion/out/
+projects/_remotion/public/brand-font.ttf
+.DS_Store
+__pycache__/
+tools/

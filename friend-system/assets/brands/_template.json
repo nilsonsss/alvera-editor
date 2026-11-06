@@ -1,0 +1,36 @@
+{
+ "name": "<Brand name>",
+ "language": "en",
+ "palette": {
+  "accent": "#RRGGBB",
+  "accent_2": "#RRGGBB",
+  "ink": "#111111",
+  "paper": "#FFFFFF"
+ },
+ "captions": {
+  "swap": {
+   "font": "<font file in assets/fonts/>",
+   "weight": 700,
+   "accent_weight": 700,
+   "accent_font": null,
+   "fill": "#FFFFFF",
+   "accent": "#RRGGBB",
+   "size_big": 104,
+   "size_small": 60,
+   "gap_under_chin": 130,
+   "y_min": 1240,
+   "y_max": 1320,
+   "tracking_em": -0.02,
+   "stack_pitch": 1.06,
+   "shadow": {
+    "dy": 4,
+    "blur": 9,
+    "alpha": 165
+   },
+   "side_margin": 130
+  }
+ },
+ "sfx": {
+  "gain_db": -14
+ }
+}

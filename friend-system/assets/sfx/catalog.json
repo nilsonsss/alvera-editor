@@ -1,0 +1,98 @@
+{
+ "whoosh_in_short": {
+  "file": "assets/sfx/whoosh_in_short.wav",
+  "duration_s": 0.28,
+  "duration_frames_30fps": 9,
+  "peak_dbfs": -6,
+  "use": "quick zoom-in (4\u20138 frame push). Sync the END of the sound to the moment the zoom lands.",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ },
+ "whoosh_in": {
+  "file": "assets/sfx/whoosh_in.wav",
+  "duration_s": 0.45,
+  "duration_frames_30fps": 14,
+  "peak_dbfs": -6,
+  "use": "slower zoom-in or reveal; peak lands at the end",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ },
+ "whoosh_out_short": {
+  "file": "assets/sfx/whoosh_out_short.wav",
+  "duration_s": 0.28,
+  "duration_frames_30fps": 9,
+  "peak_dbfs": -6,
+  "use": "quick zoom-out; the attack sits on the first frame of the zoom",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ },
+ "whoosh_out": {
+  "file": "assets/sfx/whoosh_out.wav",
+  "duration_s": 0.45,
+  "duration_frames_30fps": 14,
+  "peak_dbfs": -6,
+  "use": "slower zoom-out / pull back",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ },
+ "swoosh": {
+  "file": "assets/sfx/swoosh.wav",
+  "duration_s": 0.22,
+  "duration_frames_30fps": 7,
+  "peak_dbfs": -7,
+  "use": "whip/transition across a cut; centre it on the cut",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ },
+ "pop": {
+  "file": "assets/sfx/pop.wav",
+  "duration_s": 0.09,
+  "duration_frames_30fps": 3,
+  "peak_dbfs": -8,
+  "use": "text/sticker/graphic appears; also a light accent on a punch-in",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ },
+ "click": {
+  "file": "assets/sfx/click.wav",
+  "duration_s": 0.03,
+  "duration_frames_30fps": 1,
+  "peak_dbfs": -12,
+  "use": "UI tap, subtle cut accent, list items",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ },
+ "ding": {
+  "file": "assets/sfx/ding.wav",
+  "duration_s": 0.9,
+  "duration_frames_30fps": 27,
+  "peak_dbfs": -10,
+  "use": "highlight a key fact or a price appearing",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ },
+ "cash": {
+  "file": "assets/sfx/cash.wav",
+  "duration_s": 1.0,
+  "duration_frames_30fps": 30,
+  "peak_dbfs": -9,
+  "use": "price / discount / deal moment",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ },
+ "impact": {
+  "file": "assets/sfx/impact.wav",
+  "duration_s": 0.7,
+  "duration_frames_30fps": 21,
+  "peak_dbfs": -5,
+  "use": "big reveal, hook, first frame of a strong statement",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ },
+ "riser_1s": {
+  "file": "assets/sfx/riser_1s.wav",
+  "duration_s": 1.0,
+  "duration_frames_30fps": 30,
+  "peak_dbfs": -8,
+  "use": "build-up into a reveal; END of sound on the reveal frame",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ },
+ "whoosh_soft": {
+  "file": "assets/sfx/whoosh_soft.wav",
+  "duration_s": 0.62,
+  "duration_frames_30fps": 19,
+  "peak_dbfs": -12,
+  "use": "smooth air swoosh for a cut or scale step; CENTRE it on the cut (align: center)",
+  "source": "synthesized (scripts/sfx/make_sfx.py) \u2014 no licence constraints"
+ }
+}

@@ -1,0 +1,15 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV
+Style: Cap,Montserrat ExtraBold,100,&H00FFFFFF,&H50000000,&H60000000,0,0,1,3.5,4.0,2,110,110,430
+Style: Big,Instrument Serif Italic,150,&H00FFFFFF,&H50000000,&H70000000,0,0,1,0,3.0,5,60,60,0
+Style: Label,IBM Plex Mono Medium,58,&H00FFFFFF,&H50000000,&H70000000,0,0,1,1,2.0,8,60,60,300
+Style: Pop,Geist Black,220,&H00FFFFFF,&H50000000,&H70000000,0,0,1,3.0,5.0,5,60,60,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:06.83,0:00:07.85,Pop,,0,0,0,,{\1c&HFFFFFF&\bord0\shad0}{\fad(0,200)\fscx140\fscy140\blur8\t(0,180,\fscx100\fscy100\blur0)\t(180,1400,\fscx106\fscy106)}{}{\pos(540,990)}{\frz45\p1}m 146 0 l 194 0 l 194 146 l 340 146 l 340 194 l 194 194 l 194 340 l 146 340 l 146 194 l 0 194 l 0 146 l 146 146{\p0}

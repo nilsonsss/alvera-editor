@@ -1,0 +1,4728 @@
+1
+00:00:00,000 --> 00:00:02,120
+ In this video, I'm gonna show you how I created
+
+2
+00:00:02,120 --> 00:00:05,500
+ this viral minimal talking head edit using only Claude.
+
+3
+00:00:05,620 --> 00:00:06,500
+ And yes, that's right.
+
+4
+00:00:06,620 --> 00:00:07,500
+ You won't need Hicksfield
+
+5
+00:00:07,500 --> 00:00:09,460
+ and you won't need any other paid plugins.
+
+6
+00:00:09,760 --> 00:00:11,640
+ The only thing you need is your Claude plan.
+
+7
+00:00:11,740 --> 00:00:13,100
+ And I'm gonna show you how you can set
+
+8
+00:00:13,100 --> 00:00:14,360
+ everything up from scratch.
+
+9
+00:00:14,540 --> 00:00:16,400
+ First, I'm gonna break down what this minimal style
+
+10
+00:00:16,400 --> 00:00:18,220
+ is made of and teach you the 10 principles
+
+11
+00:00:18,220 --> 00:00:20,320
+ that make up cinematic edits like this one.
+
+12
+00:00:20,380 --> 00:00:21,840
+ Then I'll show you how we train Claude
+
+13
+00:00:21,840 --> 00:00:23,780
+ on this editing style and the training workflow
+
+14
+00:00:23,780 --> 00:00:25,900
+ that actually gets you good edits out of Claude.
+
+15
+00:00:26,000 --> 00:00:27,860
+ And finally, I'll show you how to use this skill
+
+16
+00:00:27,860 --> 00:00:29,320
+ step-by-step to plan the edit,
+
+17
+00:00:29,320 --> 00:00:31,700
+ create the animations and package it all together
+
+18
+00:00:31,700 --> 00:00:32,820
+ with premium sound design.
+
+19
+00:00:32,900 --> 00:00:34,700
+ By the way, if you're new to AI video editing
+
+20
+00:00:34,700 --> 00:00:37,320
+ and you wanna learn the basics of how the AI tools work
+
+21
+00:00:37,320 --> 00:00:39,760
+ and how you can create viral edits using only AI,
+
+22
+00:00:39,940 --> 00:00:42,020
+ check out the AI Editing Fundamentals Masterclass
+
+23
+00:00:42,020 --> 00:00:43,120
+ inside of Ultimate Editors.
+
+24
+00:00:43,340 --> 00:00:44,260
+ The link is down below.
+
+25
+00:00:44,340 --> 00:00:45,960
+ But without further ado, let's dive right in.
+
+26
+00:00:46,040 --> 00:00:47,460
+ Before I show you how to train Claude
+
+27
+00:00:47,460 --> 00:00:49,160
+ on creating stunning edits like this one,
+
+28
+00:00:49,420 --> 00:00:52,100
+ first, I need to teach you what makes this edit so special.
+
+29
+00:00:52,220 --> 00:00:54,340
+ You see, this premium educational editing style
+
+30
+00:00:54,340 --> 00:00:55,940
+ looks luxurious and premium.
+
+31
+00:00:56,180 --> 00:00:58,440
+ It's special, it's artistic, it's high production,
+
+32
+00:00:58,640 --> 00:00:59,940
+ and it's addictive to watch.
+
+33
+00:00:59,940 --> 00:01:02,320
+ This is the exact style that clients pay editors
+
+34
+00:01:02,320 --> 00:01:04,320
+ $100 per short form video for.
+
+35
+00:01:04,420 --> 00:01:07,580
+ And that's an easy $3,000 a month with just one client.
+
+36
+00:01:07,760 --> 00:01:10,120
+ Now, if we analyze this editing style as a video editor,
+
+37
+00:01:10,300 --> 00:01:13,160
+ it really boils down to 10 fundamental editing principles
+
+38
+00:01:13,160 --> 00:01:13,940
+ that make it up.
+
+39
+00:01:14,040 --> 00:01:15,140
+ That might seem like a lot,
+
+40
+00:01:15,260 --> 00:01:16,300
+ but once we break it down,
+
+41
+00:01:16,380 --> 00:01:17,760
+ you're gonna see how easy these are.
+
+42
+00:01:17,860 --> 00:01:19,260
+ The first principle is the obvious one.
+
+43
+00:01:19,420 --> 00:01:20,820
+ It's the on-screen captions design.
+
+44
+00:01:20,940 --> 00:01:22,320
+ The text in this style is special
+
+45
+00:01:22,320 --> 00:01:24,160
+ because it emphasizes the important words.
+
+46
+00:01:24,300 --> 00:01:26,300
+ To do this, Arthur uses two kinds of fonts,
+
+47
+00:01:26,300 --> 00:01:28,060
+ a simple sans font for the main text.
+
+48
+00:01:28,220 --> 00:01:29,640
+ In this case, he's using enter.
+
+49
+00:01:29,820 --> 00:01:32,520
+ And a secondary script or serif font for the special text.
+
+50
+00:01:32,680 --> 00:01:34,700
+ In this case, he's using Playfair italic.
+
+51
+00:01:34,820 --> 00:01:36,480
+ But what makes the text special isn't the font,
+
+52
+00:01:36,600 --> 00:01:37,740
+ it's the way he places it.
+
+53
+00:01:37,820 --> 00:01:39,040
+ There's no fixed pattern here,
+
+54
+00:01:39,140 --> 00:01:40,460
+ but there is simple logic.
+
+55
+00:01:40,640 --> 00:01:42,140
+ He looks at the line he's about to write out,
+
+56
+00:01:42,240 --> 00:01:43,640
+ which is usually five words or less.
+
+57
+00:01:43,960 --> 00:01:45,840
+ He picks out the most important words in that line,
+
+58
+00:01:45,980 --> 00:01:46,660
+ makes them bold,
+
+59
+00:01:46,820 --> 00:01:48,300
+ either bold sans or bold serif,
+
+60
+00:01:48,380 --> 00:01:49,700
+ and places them in the center.
+
+61
+00:01:49,700 --> 00:01:51,580
+ Then he looks for gaps around that line,
+
+62
+00:01:51,720 --> 00:01:52,660
+ above it or under it,
+
+63
+00:01:52,760 --> 00:01:55,200
+ and places the other words there at a smaller scale.
+
+64
+00:01:55,300 --> 00:01:57,540
+ And by combining these two fonts with that placement logic,
+
+65
+00:01:57,740 --> 00:01:59,900
+ we get really premium text designs like these.
+
+66
+00:02:00,040 --> 00:02:02,260
+ The second principle is his B-roll and text designs.
+
+67
+00:02:02,460 --> 00:02:03,320
+ To choose the right B-roll,
+
+68
+00:02:03,460 --> 00:02:05,360
+ Arthur divides his script into small segments
+
+69
+00:02:05,360 --> 00:02:07,820
+ and finds B-roll that shows what he's talking about.
+
+70
+00:02:07,920 --> 00:02:09,440
+ If he mentions fighting and resisting,
+
+71
+00:02:09,660 --> 00:02:11,340
+ he's gonna find B-roll of a guy fighting
+
+72
+00:02:11,340 --> 00:02:12,520
+ and use it as the background.
+
+73
+00:02:12,720 --> 00:02:14,220
+ But he doesn't just drop the B-roll in,
+
+74
+00:02:14,420 --> 00:02:16,260
+ he applies a light paper texture to it,
+
+75
+00:02:16,420 --> 00:02:17,160
+ darkens the edges,
+
+76
+00:02:17,160 --> 00:02:18,680
+ and even blurs the edges a little,
+
+77
+00:02:18,840 --> 00:02:21,580
+ so the viewer focuses on the main focal point of the B-roll.
+
+78
+00:02:21,680 --> 00:02:23,000
+ Then finally, and most importantly,
+
+79
+00:02:23,220 --> 00:02:24,840
+ the text is placed on top of the B-roll
+
+80
+00:02:24,840 --> 00:02:26,600
+ using the same cinematic text logic
+
+81
+00:02:26,600 --> 00:02:27,420
+ from the first principle,
+
+82
+00:02:27,760 --> 00:02:28,700
+ so it describes the scene.
+
+83
+00:02:28,780 --> 00:02:29,920
+ The third principle is similar,
+
+84
+00:02:30,080 --> 00:02:30,900
+ but slightly different.
+
+85
+00:02:31,040 --> 00:02:32,480
+ These are his painting animations,
+
+86
+00:02:32,760 --> 00:02:33,800
+ and these are my favorite.
+
+87
+00:02:34,000 --> 00:02:35,420
+ Arthur uses paintings with text
+
+88
+00:02:35,420 --> 00:02:37,040
+ to deliver his philosophical points,
+
+89
+00:02:37,180 --> 00:02:38,340
+ and it's just pure art.
+
+90
+00:02:38,480 --> 00:02:39,780
+ He finds a painting that describes
+
+91
+00:02:39,780 --> 00:02:40,580
+ what he's talking about,
+
+92
+00:02:40,720 --> 00:02:42,720
+ then he applies a paint and rough paper texture
+
+93
+00:02:42,720 --> 00:02:44,500
+ to the painting to make it feel more real.
+
+94
+00:02:44,500 --> 00:02:45,900
+ He adds cinematic text
+
+95
+00:02:45,900 --> 00:02:47,320
+ around the painting's main subject
+
+96
+00:02:47,320 --> 00:02:48,660
+ to describe the scene even more,
+
+97
+00:02:48,960 --> 00:02:50,100
+ and tops it all off
+
+98
+00:02:50,100 --> 00:02:52,000
+ with a quick camera slide-in animation
+
+99
+00:02:52,000 --> 00:02:52,900
+ to reveal it.
+
+100
+00:02:52,980 --> 00:02:54,340
+ This is just the most brilliant way
+
+101
+00:02:54,340 --> 00:02:55,060
+ to describe a scene.
+
+102
+00:02:55,140 --> 00:02:55,760
+ The fourth principle
+
+103
+00:02:55,760 --> 00:02:57,520
+ is the first kind of animation that we see.
+
+104
+00:02:57,700 --> 00:02:59,400
+ It's his line and text animations.
+
+105
+00:02:59,580 --> 00:03:00,180
+ In these scenes,
+
+106
+00:03:00,280 --> 00:03:01,820
+ there's a line that leads up to the text,
+
+107
+00:03:02,040 --> 00:03:03,160
+ gets interrupted by it,
+
+108
+00:03:03,240 --> 00:03:04,420
+ and then continues the thought
+
+109
+00:03:04,420 --> 00:03:05,440
+ into other text
+
+110
+00:03:05,440 --> 00:03:06,660
+ that's related to the first.
+
+111
+00:03:06,760 --> 00:03:07,420
+ To create them,
+
+112
+00:03:07,520 --> 00:03:09,020
+ we start off with either a black
+
+113
+00:03:09,020 --> 00:03:09,940
+ or white background
+
+114
+00:03:09,940 --> 00:03:11,320
+ with a paper texture on it.
+
+115
+00:03:11,380 --> 00:03:12,720
+ Then he draws out a simple line
+
+116
+00:03:12,720 --> 00:03:13,860
+ in an accent blue color,
+
+117
+00:03:14,060 --> 00:03:15,280
+ and he places cinematic text
+
+118
+00:03:15,280 --> 00:03:16,060
+ to interrupt it.
+
+119
+00:03:16,180 --> 00:03:16,920
+ The cameras track
+
+120
+00:03:16,920 --> 00:03:17,840
+ where the line goes,
+
+121
+00:03:17,960 --> 00:03:18,780
+ so the viewer follows
+
+122
+00:03:18,780 --> 00:03:20,160
+ exactly what Arthur is saying.
+
+123
+00:03:20,240 --> 00:03:20,820
+ The fifth principle
+
+124
+00:03:20,820 --> 00:03:21,640
+ is very similar,
+
+125
+00:03:21,820 --> 00:03:22,680
+ but it's his line
+
+126
+00:03:22,680 --> 00:03:24,040
+ and illustrations animations.
+
+127
+00:03:24,360 --> 00:03:25,660
+ These start with the same background
+
+128
+00:03:25,660 --> 00:03:26,380
+ and the same line,
+
+129
+00:03:26,560 --> 00:03:27,580
+ but now the line leads
+
+130
+00:03:27,580 --> 00:03:28,380
+ into illustrations.
+
+131
+00:03:28,760 --> 00:03:30,140
+ Sometimes the line draws horizontally
+
+132
+00:03:30,140 --> 00:03:31,020
+ with a white dot
+
+133
+00:03:31,020 --> 00:03:32,380
+ to mark where the object is,
+
+134
+00:03:32,740 --> 00:03:33,940
+ cinematic text to describe it,
+
+135
+00:03:34,000 --> 00:03:35,240
+ and an illustration like this one
+
+136
+00:03:35,240 --> 00:03:36,260
+ at the bottom to show it.
+
+137
+00:03:36,320 --> 00:03:36,820
+ Other times,
+
+138
+00:03:36,900 --> 00:03:38,060
+ he starts the line with text,
+
+139
+00:03:38,180 --> 00:03:39,040
+ then draws the line
+
+140
+00:03:39,040 --> 00:03:39,760
+ in a zigzag
+
+141
+00:03:39,760 --> 00:03:40,900
+ and pans the camera
+
+142
+00:03:40,900 --> 00:03:42,040
+ to reveal objects
+
+143
+00:03:42,040 --> 00:03:43,020
+ on both sides of it.
+
+144
+00:03:43,100 --> 00:03:43,800
+ He uses this one
+
+145
+00:03:43,800 --> 00:03:44,780
+ when he's showing progression
+
+146
+00:03:44,780 --> 00:03:45,800
+ through multiple phases,
+
+147
+00:03:46,020 --> 00:03:46,900
+ and sometimes he'll even
+
+148
+00:03:46,900 --> 00:03:48,100
+ have the line lead straight
+
+149
+00:03:48,100 --> 00:03:49,560
+ up to the subject of the scene.
+
+150
+00:03:49,620 --> 00:03:50,100
+ And by the way,
+
+151
+00:03:50,280 --> 00:03:51,320
+ understanding these principles
+
+152
+00:03:51,320 --> 00:03:52,820
+ of how this style is made
+
+153
+00:03:52,820 --> 00:03:53,860
+ is super important
+
+154
+00:03:53,860 --> 00:03:55,340
+ if you want to get stunning results
+
+155
+00:03:55,340 --> 00:03:56,660
+ like this later in the video.
+
+156
+00:03:56,760 --> 00:03:57,180
+ So let's go ahead
+
+157
+00:03:57,180 --> 00:03:58,020
+ and wrap up the last five
+
+158
+00:03:58,020 --> 00:03:58,940
+ and show you how we do that.
+
+159
+00:03:59,020 --> 00:03:59,720
+ The sixth principle
+
+160
+00:03:59,720 --> 00:04:00,920
+ is text-centric scenes.
+
+161
+00:04:01,100 --> 00:04:01,760
+ They start with either
+
+162
+00:04:01,760 --> 00:04:03,020
+ a white or a blue background
+
+163
+00:04:03,020 --> 00:04:03,860
+ with a very rough
+
+164
+00:04:03,860 --> 00:04:04,900
+ paper texture on it.
+
+165
+00:04:04,980 --> 00:04:06,320
+ Then there's two quotation marks
+
+166
+00:04:06,320 --> 00:04:07,380
+ around the center of the screen
+
+167
+00:04:07,380 --> 00:04:08,680
+ and cinematic text in the middle
+
+168
+00:04:08,680 --> 00:04:09,520
+ that writes out
+
+169
+00:04:09,520 --> 00:04:10,480
+ what the scene is saying.
+
+170
+00:04:10,580 --> 00:04:11,100
+ It's very simple
+
+171
+00:04:11,100 --> 00:04:11,940
+ and straight to the bottom.
+
+172
+00:04:12,040 --> 00:04:12,740
+ The seventh principle
+
+173
+00:04:12,740 --> 00:04:14,240
+ is where things get interesting.
+
+174
+00:04:14,420 --> 00:04:16,160
+ These are the center illustration scenes
+
+175
+00:04:16,160 --> 00:04:16,820
+ where an illustration
+
+176
+00:04:16,820 --> 00:04:18,200
+ takes up the center of the screen
+
+177
+00:04:18,200 --> 00:04:19,320
+ with text around it.
+
+178
+00:04:19,400 --> 00:04:20,440
+ Arthur takes the main idea
+
+179
+00:04:20,440 --> 00:04:20,860
+ of a script,
+
+180
+00:04:21,060 --> 00:04:21,800
+ creates an illustration
+
+181
+00:04:21,800 --> 00:04:22,480
+ that shows it,
+
+182
+00:04:22,560 --> 00:04:23,480
+ let's say it's a person,
+
+183
+00:04:23,600 --> 00:04:24,520
+ and places it on his
+
+184
+00:04:24,520 --> 00:04:25,940
+ white paper textured background
+
+185
+00:04:25,940 --> 00:04:26,620
+ in a rough,
+
+186
+00:04:26,860 --> 00:04:27,960
+ painted, noisy texture.
+
+187
+00:04:28,120 --> 00:04:29,160
+ It takes up the lower half
+
+188
+00:04:29,160 --> 00:04:29,620
+ of the screen
+
+189
+00:04:29,620 --> 00:04:31,280
+ and bleeds into the upper middle.
+
+190
+00:04:31,380 --> 00:04:32,740
+ And it always looks so abstract
+
+191
+00:04:32,740 --> 00:04:33,660
+ with these edges
+
+192
+00:04:33,660 --> 00:04:35,320
+ that lead into the rest of the scene.
+
+193
+00:04:35,400 --> 00:04:36,820
+ Then he uses the rest of the scene
+
+194
+00:04:36,820 --> 00:04:37,800
+ for cinematic text
+
+195
+00:04:37,800 --> 00:04:38,900
+ related to the subject.
+
+196
+00:04:39,120 --> 00:04:40,500
+ Sometimes it's a top-down image
+
+197
+00:04:40,500 --> 00:04:41,120
+ of a brain
+
+198
+00:04:41,120 --> 00:04:42,240
+ or a circular pattern
+
+199
+00:04:42,240 --> 00:04:43,140
+ made of thin lines
+
+200
+00:04:43,140 --> 00:04:44,500
+ with clean text around it.
+
+201
+00:04:44,580 --> 00:04:45,160
+ And my favorites
+
+202
+00:04:45,160 --> 00:04:47,000
+ are the side profiles of characters
+
+203
+00:04:47,000 --> 00:04:48,040
+ where Arthur uses
+
+204
+00:04:48,040 --> 00:04:49,460
+ a rough cloth texture
+
+205
+00:04:49,460 --> 00:04:50,660
+ to contrast the character
+
+206
+00:04:50,660 --> 00:04:51,620
+ against the background
+
+207
+00:04:51,620 --> 00:04:52,600
+ so it grabs attention.
+
+208
+00:04:52,740 --> 00:04:53,380
+ There's a lot of scenes
+
+209
+00:04:53,380 --> 00:04:54,000
+ in this category,
+
+210
+00:04:54,160 --> 00:04:55,420
+ but they all fit the Arthur look
+
+211
+00:04:55,420 --> 00:04:56,960
+ by following the same textures,
+
+212
+00:04:57,240 --> 00:04:57,860
+ the same edges,
+
+213
+00:04:58,020 --> 00:04:58,740
+ and the same colors.
+
+214
+00:04:58,960 --> 00:04:59,660
+ The eighth principle
+
+215
+00:04:59,660 --> 00:05:00,900
+ is the side illustration
+
+216
+00:05:00,900 --> 00:05:01,720
+ and text scenes.
+
+217
+00:05:02,020 --> 00:05:03,300
+ These use the sides of the screen
+
+218
+00:05:03,300 --> 00:05:04,300
+ to deliver the message.
+
+219
+00:05:04,460 --> 00:05:05,640
+ It's the same textured background
+
+220
+00:05:05,640 --> 00:05:07,040
+ and the same abstract characters,
+
+221
+00:05:07,200 --> 00:05:08,840
+ but now they sit on one side
+
+222
+00:05:08,840 --> 00:05:09,400
+ of the screen
+
+223
+00:05:09,400 --> 00:05:10,400
+ with cinematic text
+
+224
+00:05:10,400 --> 00:05:11,240
+ on the other side
+
+225
+00:05:11,240 --> 00:05:12,720
+ so the scene looks complete.
+
+226
+00:05:12,920 --> 00:05:14,200
+ Sometimes it's a half circle
+
+227
+00:05:14,200 --> 00:05:15,360
+ with a rough cloth texture
+
+228
+00:05:15,360 --> 00:05:16,420
+ on the left side of the screen
+
+229
+00:05:16,420 --> 00:05:17,220
+ with clean text
+
+230
+00:05:17,220 --> 00:05:18,220
+ rotating around it.
+
+231
+00:05:18,280 --> 00:05:19,260
+ Arthur uses these scenes
+
+232
+00:05:19,260 --> 00:05:20,220
+ whenever he wants to show
+
+233
+00:05:20,220 --> 00:05:20,860
+ two elements
+
+234
+00:05:20,860 --> 00:05:21,660
+ at the same time.
+
+235
+00:05:21,740 --> 00:05:22,000
+ Finally,
+
+236
+00:05:22,100 --> 00:05:22,860
+ the last two principles
+
+237
+00:05:22,860 --> 00:05:24,060
+ are rare but useful.
+
+238
+00:05:24,180 --> 00:05:24,780
+ The ninth principle
+
+239
+00:05:24,780 --> 00:05:26,260
+ is the object and text scene
+
+240
+00:05:26,260 --> 00:05:27,160
+ where Arthur shows
+
+241
+00:05:27,160 --> 00:05:27,880
+ a single element
+
+242
+00:05:27,880 --> 00:05:28,960
+ with text around it
+
+243
+00:05:28,960 --> 00:05:29,940
+ as a part of the story,
+
+244
+00:05:30,080 --> 00:05:30,640
+ paper background,
+
+245
+00:05:30,960 --> 00:05:32,100
+ cinematic text around the element,
+
+246
+00:05:32,280 --> 00:05:33,340
+ and rough reveal animations.
+
+247
+00:05:33,340 --> 00:05:34,420
+ And the tenth principle
+
+248
+00:05:34,420 --> 00:05:36,140
+ is the graph and statistics scenes
+
+249
+00:05:36,140 --> 00:05:37,340
+ where Arthur uses graphs
+
+250
+00:05:37,340 --> 00:05:37,960
+ to show the viewer
+
+251
+00:05:37,960 --> 00:05:38,960
+ what the numbers look like.
+
+252
+00:05:39,040 --> 00:05:40,280
+ He uses a flat dark background
+
+253
+00:05:40,280 --> 00:05:40,880
+ with a texture
+
+254
+00:05:40,880 --> 00:05:42,520
+ and a grid with thin white lines
+
+255
+00:05:42,520 --> 00:05:43,960
+ that glow to set up the graph.
+
+256
+00:05:44,060 --> 00:05:44,300
+ Typically,
+
+257
+00:05:44,400 --> 00:05:45,520
+ he also uses a blue ball
+
+258
+00:05:45,520 --> 00:05:46,420
+ to represent a line
+
+259
+00:05:46,420 --> 00:05:47,060
+ with the camera
+
+260
+00:05:47,060 --> 00:05:48,220
+ following it as it moves.
+
+261
+00:05:48,380 --> 00:05:48,560
+ Now,
+
+262
+00:05:48,720 --> 00:05:49,680
+ these ten principles
+
+263
+00:05:49,680 --> 00:05:50,560
+ all come together
+
+264
+00:05:50,560 --> 00:05:51,360
+ in one video
+
+265
+00:05:51,360 --> 00:05:52,700
+ to form the clean premium
+
+266
+00:05:52,700 --> 00:05:53,360
+ minimal style
+
+267
+00:05:53,360 --> 00:05:54,560
+ that you guys know and love.
+
+268
+00:05:54,740 --> 00:05:55,400
+ And in a few minutes,
+
+269
+00:05:55,480 --> 00:05:56,240
+ you're gonna watch Claude
+
+270
+00:05:56,240 --> 00:05:57,840
+ build these exact scenes
+
+271
+00:05:57,840 --> 00:05:58,640
+ from scratch.
+
+272
+00:05:58,800 --> 00:05:59,180
+ So now,
+
+273
+00:05:59,280 --> 00:06:00,520
+ instead of trying to figure out
+
+274
+00:06:00,520 --> 00:06:01,400
+ how we can create
+
+275
+00:06:01,400 --> 00:06:02,260
+ all of this ourselves,
+
+276
+00:06:02,420 --> 00:06:03,280
+ we're gonna train Claude
+
+277
+00:06:03,280 --> 00:06:04,520
+ on this exact style
+
+278
+00:06:04,520 --> 00:06:05,180
+ and teach it
+
+279
+00:06:05,180 --> 00:06:06,580
+ to create these edits for us.
+
+280
+00:06:06,700 --> 00:06:06,820
+ Now,
+
+281
+00:06:06,880 --> 00:06:07,740
+ this might make you wonder,
+
+282
+00:06:07,840 --> 00:06:07,960
+ then,
+
+283
+00:06:08,100 --> 00:06:08,300
+ Joseph,
+
+284
+00:06:08,440 --> 00:06:09,560
+ why did you just spend
+
+285
+00:06:09,560 --> 00:06:10,580
+ five minutes teaching me
+
+286
+00:06:10,580 --> 00:06:11,740
+ how this style is gonna be made
+
+287
+00:06:11,740 --> 00:06:12,620
+ if I'm not gonna be
+
+288
+00:06:12,620 --> 00:06:13,320
+ the one making it?
+
+289
+00:06:13,360 --> 00:06:14,440
+ The main reason is because
+
+290
+00:06:14,440 --> 00:06:15,800
+ if you simply don't know
+
+291
+00:06:15,800 --> 00:06:16,860
+ how to create good videos,
+
+292
+00:06:16,980 --> 00:06:18,280
+ you're only gonna be using AI
+
+293
+00:06:18,280 --> 00:06:19,600
+ to create bad videos.
+
+294
+00:06:19,840 --> 00:06:21,400
+ You need to fundamentally understand
+
+295
+00:06:21,400 --> 00:06:22,880
+ what makes these designs good,
+
+296
+00:06:22,980 --> 00:06:23,780
+ what makes this video
+
+297
+00:06:23,780 --> 00:06:24,940
+ such a good video to watch,
+
+298
+00:06:24,940 --> 00:06:25,660
+ and ultimately,
+
+299
+00:06:25,980 --> 00:06:27,600
+ what makes a good short-form video.
+
+300
+00:06:27,720 --> 00:06:28,240
+ All of this
+
+301
+00:06:28,240 --> 00:06:29,440
+ so that you can use AI
+
+302
+00:06:29,440 --> 00:06:31,000
+ to create stunning videos.
+
+303
+00:06:31,220 --> 00:06:31,420
+ Look,
+
+304
+00:06:31,480 --> 00:06:32,500
+ if you're finding it hard
+
+305
+00:06:32,500 --> 00:06:33,340
+ to learn all these
+
+306
+00:06:33,340 --> 00:06:35,000
+ viral editing styles in 2026
+
+307
+00:06:35,000 --> 00:06:36,200
+ and learn how to use AI
+
+308
+00:06:36,200 --> 00:06:36,980
+ to create them,
+
+309
+00:06:37,080 --> 00:06:38,180
+ we spent the last two years
+
+310
+00:06:38,180 --> 00:06:39,800
+ building Ultimate Editors 2.0
+
+311
+00:06:39,800 --> 00:06:40,860
+ for editors like you.
+
+312
+00:06:40,940 --> 00:06:42,100
+ It's a step-by-step program
+
+313
+00:06:42,100 --> 00:06:42,760
+ that teaches you
+
+314
+00:06:42,760 --> 00:06:44,660
+ how to edit viral videos in 2026
+
+315
+00:06:44,660 --> 00:06:45,520
+ and how to create
+
+316
+00:06:45,520 --> 00:06:46,520
+ stunning edits with AI.
+
+317
+00:06:46,660 --> 00:06:46,920
+ Inside,
+
+318
+00:06:47,000 --> 00:06:47,460
+ you're gonna find
+
+319
+00:06:47,460 --> 00:06:48,460
+ step-by-step courses
+
+320
+00:06:48,460 --> 00:06:50,020
+ on the four viral editing styles
+
+321
+00:06:50,020 --> 00:06:50,940
+ of 2026.
+
+322
+00:06:51,120 --> 00:06:52,300
+ The cinematic editing style,
+
+323
+00:06:52,300 --> 00:06:53,760
+ the minimal animation style,
+
+324
+00:06:53,880 --> 00:06:55,500
+ the viral SaaS motion design style,
+
+325
+00:06:55,700 --> 00:06:56,700
+ and even how to edit
+
+326
+00:06:56,700 --> 00:06:57,940
+ viral talking head videos.
+
+327
+00:06:58,080 --> 00:06:58,780
+ And we go deep
+
+328
+00:06:58,780 --> 00:06:59,500
+ into the psychology
+
+329
+00:06:59,500 --> 00:07:01,160
+ of what makes a good edit good
+
+330
+00:07:01,160 --> 00:07:02,240
+ and how you can create
+
+331
+00:07:02,240 --> 00:07:03,240
+ stunning edits as well.
+
+332
+00:07:03,320 --> 00:07:03,520
+ You see,
+
+333
+00:07:03,580 --> 00:07:04,240
+ our students join
+
+334
+00:07:04,240 --> 00:07:05,000
+ as complete beginners
+
+335
+00:07:05,000 --> 00:07:06,140
+ and graduate creating
+
+336
+00:07:06,140 --> 00:07:07,300
+ stunning edits like these
+
+337
+00:07:07,300 --> 00:07:08,200
+ in just a few months.
+
+338
+00:07:08,360 --> 00:07:09,560
+ And because of our $2,000
+
+339
+00:07:09,560 --> 00:07:10,640
+ per month editor blueprint,
+
+340
+00:07:10,900 --> 00:07:11,720
+ they all go on
+
+341
+00:07:11,720 --> 00:07:12,820
+ to make thousands of dollars
+
+342
+00:07:12,820 --> 00:07:13,320
+ every month
+
+343
+00:07:13,320 --> 00:07:14,040
+ with video editing.
+
+344
+00:07:14,120 --> 00:07:14,720
+ And if you're impressed
+
+345
+00:07:14,720 --> 00:07:15,920
+ with how good AI edits
+
+346
+00:07:15,920 --> 00:07:16,380
+ can look,
+
+347
+00:07:16,640 --> 00:07:17,860
+ our AI Editing Fundamentals
+
+348
+00:07:17,860 --> 00:07:18,880
+ masterclass teaches you
+
+349
+00:07:18,880 --> 00:07:20,400
+ every AI tool from scratch
+
+350
+00:07:20,400 --> 00:07:21,380
+ and gives you
+
+351
+00:07:21,380 --> 00:07:22,140
+ the skill files
+
+352
+00:07:22,140 --> 00:07:22,680
+ and courses
+
+353
+00:07:22,680 --> 00:07:23,220
+ to create
+
+354
+00:07:23,220 --> 00:07:24,280
+ Iman Gaji videos,
+
+355
+00:07:24,480 --> 00:07:25,160
+ Vox documentaries,
+
+356
+00:07:25,460 --> 00:07:26,500
+ and viral short-form edits
+
+357
+00:07:26,500 --> 00:07:27,480
+ all using AI.
+
+358
+00:07:27,620 --> 00:07:28,400
+ The only problem is
+
+359
+00:07:28,400 --> 00:07:29,700
+ there's around two weeks left
+
+360
+00:07:29,700 --> 00:07:30,800
+ before we close down
+
+361
+00:07:30,800 --> 00:07:31,980
+ the program forever
+
+362
+00:07:31,980 --> 00:07:32,780
+ because we're building
+
+363
+00:07:32,780 --> 00:07:33,740
+ something even bigger.
+
+364
+00:07:33,840 --> 00:07:34,780
+ So we dropped the price down
+
+365
+00:07:34,780 --> 00:07:35,700
+ from $1,200
+
+366
+00:07:35,700 --> 00:07:37,860
+ to just $299
+
+367
+00:07:37,860 --> 00:07:39,360
+ for lifetime access
+
+368
+00:07:39,360 --> 00:07:40,080
+ to the courses
+
+369
+00:07:40,080 --> 00:07:41,620
+ in Ultimate Editors 2.0.
+
+370
+00:07:41,700 --> 00:07:43,300
+ You only have 14 days left.
+
+371
+00:07:43,480 --> 00:07:44,500
+ So click the link down below
+
+372
+00:07:44,500 --> 00:07:45,760
+ and join while you still can.
+
+373
+00:07:45,820 --> 00:07:46,600
+ But with all this being said,
+
+374
+00:07:46,780 --> 00:07:47,880
+ let's go back to the video.
+
+375
+00:07:48,000 --> 00:07:48,660
+ Now that we understand
+
+376
+00:07:48,660 --> 00:07:49,940
+ how this style is put together,
+
+377
+00:07:49,940 --> 00:07:50,760
+ let me show you
+
+378
+00:07:50,760 --> 00:07:51,740
+ how you can train Claude
+
+379
+00:07:51,740 --> 00:07:52,820
+ on an editing style
+
+380
+00:07:52,820 --> 00:07:53,660
+ just like this one
+
+381
+00:07:53,660 --> 00:07:55,120
+ and get it to recreate it perfectly.
+
+382
+00:07:55,220 --> 00:07:56,260
+ Whenever you want to train Claude
+
+383
+00:07:56,260 --> 00:07:57,340
+ on a certain editing style,
+
+384
+00:07:57,480 --> 00:07:58,160
+ this is the workflow
+
+385
+00:07:58,160 --> 00:07:58,860
+ that gets it
+
+386
+00:07:58,860 --> 00:07:59,900
+ to fully understand
+
+387
+00:07:59,900 --> 00:08:01,360
+ every principle of that style.
+
+388
+00:08:01,460 --> 00:08:02,100
+ This is how you stop
+
+389
+00:08:02,100 --> 00:08:03,120
+ getting slopped like this
+
+390
+00:08:03,120 --> 00:08:04,580
+ and actually get viral edits
+
+391
+00:08:04,580 --> 00:08:05,040
+ like these.
+
+392
+00:08:05,160 --> 00:08:05,560
+ Check it out.
+
+393
+00:08:05,640 --> 00:08:06,580
+ First, I head into
+
+394
+00:08:06,580 --> 00:08:07,520
+ Arthur's Instagram
+
+395
+00:08:07,520 --> 00:08:08,620
+ and search for 20
+
+396
+00:08:08,620 --> 00:08:10,240
+ of the most premium edited videos
+
+397
+00:08:10,240 --> 00:08:10,940
+ in his style
+
+398
+00:08:10,940 --> 00:08:11,880
+ and download all of them.
+
+399
+00:08:11,940 --> 00:08:12,720
+ Then I watch through
+
+400
+00:08:12,720 --> 00:08:13,780
+ each of these 20 videos
+
+401
+00:08:13,780 --> 00:08:14,580
+ and break them down
+
+402
+00:08:14,580 --> 00:08:15,820
+ from an editor's perspective.
+
+403
+00:08:15,980 --> 00:08:17,140
+ Every time a scene looks good,
+
+404
+00:08:17,220 --> 00:08:17,920
+ I ask myself
+
+405
+00:08:17,920 --> 00:08:19,560
+ why the creator used this scene?
+
+406
+00:08:19,560 --> 00:08:20,580
+ Why this design?
+
+407
+00:08:20,740 --> 00:08:21,500
+ Why these colors?
+
+408
+00:08:21,780 --> 00:08:22,540
+ Why these effects?
+
+409
+00:08:22,720 --> 00:08:23,880
+ And why these animations?
+
+410
+00:08:24,220 --> 00:08:25,340
+ By doing this for every scene,
+
+411
+00:08:25,400 --> 00:08:26,220
+ you're going to understand
+
+412
+00:08:26,220 --> 00:08:27,580
+ how this style is composed
+
+413
+00:08:27,580 --> 00:08:29,140
+ from a video editor's perspective.
+
+414
+00:08:29,340 --> 00:08:30,400
+ That's when I go to Figma
+
+415
+00:08:30,400 --> 00:08:31,620
+ and I create a new board.
+
+416
+00:08:31,840 --> 00:08:32,480
+ I watch through
+
+417
+00:08:32,480 --> 00:08:33,540
+ every edit again
+
+418
+00:08:33,540 --> 00:08:34,880
+ and every scene that I like,
+
+419
+00:08:34,960 --> 00:08:35,760
+ I screenshot it
+
+420
+00:08:35,760 --> 00:08:36,480
+ and I place it
+
+421
+00:08:36,480 --> 00:08:37,440
+ on the board like so.
+
+422
+00:08:37,520 --> 00:08:37,960
+ If you do this
+
+423
+00:08:37,960 --> 00:08:39,100
+ for every single scene you like,
+
+424
+00:08:39,200 --> 00:08:39,840
+ you'll end up with
+
+425
+00:08:39,840 --> 00:08:41,940
+ around 130 inspiration pieces
+
+426
+00:08:41,940 --> 00:08:43,300
+ that all look amazing
+
+427
+00:08:43,300 --> 00:08:44,080
+ in this style.
+
+428
+00:08:44,160 --> 00:08:45,140
+ Now, this is the important part.
+
+429
+00:08:45,200 --> 00:08:46,920
+ We look at these 130 pieces
+
+430
+00:08:46,920 --> 00:08:48,420
+ and start categorizing them
+
+431
+00:08:48,420 --> 00:08:49,460
+ into the 10 principles
+
+432
+00:08:49,460 --> 00:08:50,460
+ that we just went through.
+
+433
+00:08:50,520 --> 00:08:51,860
+ First, we take all the text scenes
+
+434
+00:08:51,860 --> 00:08:52,780
+ and place them here.
+
+435
+00:08:52,920 --> 00:08:54,580
+ Then we zoom in on one text scene
+
+436
+00:08:54,580 --> 00:08:55,280
+ and break it down.
+
+437
+00:08:55,380 --> 00:08:56,060
+ What makes it up?
+
+438
+00:08:56,220 --> 00:08:56,900
+ What are the fonts,
+
+439
+00:08:57,100 --> 00:08:57,520
+ the colors,
+
+440
+00:08:57,720 --> 00:08:58,160
+ the sizes,
+
+441
+00:08:58,360 --> 00:08:58,900
+ and the patterns?
+
+442
+00:08:59,160 --> 00:09:00,020
+ Then we go back
+
+443
+00:09:00,020 --> 00:09:00,900
+ and we do the same thing
+
+444
+00:09:00,900 --> 00:09:01,820
+ for the second principle.
+
+445
+00:09:01,940 --> 00:09:03,160
+ We collect all the B-roll scenes
+
+446
+00:09:03,160 --> 00:09:03,960
+ and break them down.
+
+447
+00:09:04,060 --> 00:09:04,860
+ And we do that again
+
+448
+00:09:04,860 --> 00:09:05,280
+ and again
+
+449
+00:09:05,280 --> 00:09:06,780
+ for every single principle
+
+450
+00:09:06,780 --> 00:09:08,420
+ until we end up with this.
+
+451
+00:09:08,420 --> 00:09:09,100
+ A full board
+
+452
+00:09:09,100 --> 00:09:09,860
+ that breaks down
+
+453
+00:09:09,860 --> 00:09:11,540
+ how this entire editing style
+
+454
+00:09:11,540 --> 00:09:12,700
+ is made from scratch.
+
+455
+00:09:12,840 --> 00:09:13,380
+ Now, obviously,
+
+456
+00:09:13,560 --> 00:09:15,140
+ this requires a deep understanding
+
+457
+00:09:15,140 --> 00:09:15,860
+ of video editing
+
+458
+00:09:15,860 --> 00:09:16,940
+ and viral design.
+
+459
+00:09:17,020 --> 00:09:17,880
+ So it might be hard
+
+460
+00:09:17,880 --> 00:09:18,700
+ if you're still new,
+
+461
+00:09:18,780 --> 00:09:19,340
+ but this board
+
+462
+00:09:19,340 --> 00:09:20,940
+ is the most important part
+
+463
+00:09:20,940 --> 00:09:21,920
+ of the whole training.
+
+464
+00:09:22,040 --> 00:09:23,440
+ So now we have 20 videos
+
+465
+00:09:23,440 --> 00:09:24,560
+ in the style that we like
+
+466
+00:09:24,560 --> 00:09:25,840
+ and we have a full board
+
+467
+00:09:25,840 --> 00:09:26,420
+ breaking down
+
+468
+00:09:26,420 --> 00:09:27,780
+ what this style is made of.
+
+469
+00:09:27,860 --> 00:09:29,020
+ So we head into Claude,
+
+470
+00:09:29,180 --> 00:09:30,620
+ drop in the 20 reference videos
+
+471
+00:09:30,620 --> 00:09:31,600
+ that we just downloaded
+
+472
+00:09:31,600 --> 00:09:32,520
+ and drop in a link
+
+473
+00:09:32,520 --> 00:09:33,440
+ to the Figma board
+
+474
+00:09:33,440 --> 00:09:34,280
+ that we just built.
+
+475
+00:09:34,400 --> 00:09:35,340
+ Then I give Claude
+
+476
+00:09:35,340 --> 00:09:35,980
+ this prompt.
+
+477
+00:09:35,980 --> 00:09:36,740
+ I want to teach you
+
+478
+00:09:36,740 --> 00:09:37,660
+ a new editing style.
+
+479
+00:09:37,820 --> 00:09:38,560
+ Analyze this clean,
+
+480
+00:09:38,680 --> 00:09:38,900
+ premium,
+
+481
+00:09:39,020 --> 00:09:39,820
+ minimal editing style
+
+482
+00:09:39,820 --> 00:09:41,140
+ using the 20 reference videos.
+
+483
+00:09:41,320 --> 00:09:41,960
+ Start by creating
+
+484
+00:09:41,960 --> 00:09:42,920
+ a word-by-word transcript
+
+485
+00:09:42,920 --> 00:09:44,060
+ and a frame-by-frame breakdown
+
+486
+00:09:44,060 --> 00:09:45,180
+ of every single video
+
+487
+00:09:45,180 --> 00:09:46,420
+ to study three main things.
+
+488
+00:09:46,560 --> 00:09:46,780
+ First,
+
+489
+00:09:46,900 --> 00:09:47,860
+ where the animations are placed
+
+490
+00:09:47,860 --> 00:09:48,820
+ in correlation with the script.
+
+491
+00:09:49,000 --> 00:09:49,200
+ Second,
+
+492
+00:09:49,340 --> 00:09:50,340
+ how the design is composed
+
+493
+00:09:50,340 --> 00:09:51,360
+ and what elements make it up.
+
+494
+00:09:51,440 --> 00:09:51,720
+ And third,
+
+495
+00:09:51,860 --> 00:09:52,720
+ the animation logic.
+
+496
+00:09:52,820 --> 00:09:53,940
+ How long the animations are
+
+497
+00:09:53,940 --> 00:09:54,980
+ and what they feel like
+
+498
+00:09:54,980 --> 00:09:56,020
+ so you can recreate them.
+
+499
+00:09:56,200 --> 00:09:56,440
+ Then,
+
+500
+00:09:56,580 --> 00:09:57,300
+ use the Figma board
+
+501
+00:09:57,300 --> 00:09:57,840
+ as a reference
+
+502
+00:09:57,840 --> 00:09:58,420
+ that breaks down
+
+503
+00:09:58,420 --> 00:09:59,540
+ the elements of the style
+
+504
+00:09:59,540 --> 00:10:00,580
+ and master the style
+
+505
+00:10:00,580 --> 00:10:01,300
+ using both
+
+506
+00:10:01,300 --> 00:10:02,420
+ so that I could prompt you
+
+507
+00:10:02,420 --> 00:10:03,220
+ to recreate it.
+
+508
+00:10:03,300 --> 00:10:03,980
+ This is where Claude
+
+509
+00:10:03,980 --> 00:10:05,180
+ takes those 20 videos,
+
+510
+00:10:05,340 --> 00:10:05,940
+ breaks them down
+
+511
+00:10:05,940 --> 00:10:06,680
+ frame-by-frame
+
+512
+00:10:06,680 --> 00:10:07,400
+ and picks out
+
+513
+00:10:07,400 --> 00:10:08,820
+ every frame with an animation
+
+514
+00:10:08,820 --> 00:10:10,640
+ and studies the animation's design,
+
+515
+00:10:10,800 --> 00:10:11,340
+ its logic,
+
+516
+00:10:11,600 --> 00:10:12,360
+ and where it sits
+
+517
+00:10:12,360 --> 00:10:12,880
+ in the script.
+
+518
+00:10:13,020 --> 00:10:13,920
+ And the most important part
+
+519
+00:10:13,920 --> 00:10:15,040
+ is by doing this,
+
+520
+00:10:15,180 --> 00:10:16,160
+ Claude also builds
+
+521
+00:10:16,160 --> 00:10:17,680
+ a huge library of references
+
+522
+00:10:17,680 --> 00:10:18,960
+ that it can use later
+
+523
+00:10:18,960 --> 00:10:20,440
+ to create better designs.
+
+524
+00:10:20,620 --> 00:10:20,980
+ Trust me,
+
+525
+00:10:21,120 --> 00:10:22,280
+ this makes a huge difference.
+
+526
+00:10:22,440 --> 00:10:23,100
+ Then Claude goes
+
+527
+00:10:23,100 --> 00:10:23,900
+ through the Figma board
+
+528
+00:10:23,900 --> 00:10:25,060
+ and understands the logic
+
+529
+00:10:25,060 --> 00:10:26,240
+ behind every design
+
+530
+00:10:26,240 --> 00:10:27,120
+ and every animation
+
+531
+00:10:27,120 --> 00:10:28,460
+ and what makes them amazing.
+
+532
+00:10:28,540 --> 00:10:29,560
+ That's how it understands
+
+533
+00:10:29,560 --> 00:10:30,180
+ what the style
+
+534
+00:10:30,180 --> 00:10:31,040
+ is really made of.
+
+535
+00:10:31,140 --> 00:10:31,560
+ And finally,
+
+536
+00:10:31,680 --> 00:10:32,600
+ it packages everything
+
+537
+00:10:32,600 --> 00:10:33,520
+ into this skill
+
+538
+00:10:33,520 --> 00:10:34,820
+ called the Arthur Brooks
+
+539
+00:10:34,820 --> 00:10:36,060
+ minimal animation skill.
+
+540
+00:10:36,140 --> 00:10:36,940
+ This skill breaks down
+
+541
+00:10:36,940 --> 00:10:37,580
+ every detail
+
+542
+00:10:37,580 --> 00:10:38,800
+ that makes the style up
+
+543
+00:10:38,800 --> 00:10:39,540
+ from the sizing,
+
+544
+00:10:39,900 --> 00:10:40,300
+ the layout,
+
+545
+00:10:40,520 --> 00:10:41,060
+ the textures,
+
+546
+00:10:41,280 --> 00:10:41,740
+ the shapes,
+
+547
+00:10:41,900 --> 00:10:42,280
+ the colors,
+
+548
+00:10:42,460 --> 00:10:43,420
+ and everything in between.
+
+549
+00:10:43,520 --> 00:10:44,100
+ And on top of that,
+
+550
+00:10:44,180 --> 00:10:46,700
+ it extracts 225 animations
+
+551
+00:10:46,700 --> 00:10:47,860
+ from the 20 videos
+
+552
+00:10:47,860 --> 00:10:49,320
+ and saves every single one
+
+553
+00:10:49,320 --> 00:10:49,960
+ into folders
+
+554
+00:10:49,960 --> 00:10:51,100
+ with its designs
+
+555
+00:10:51,100 --> 00:10:51,680
+ as a reference
+
+556
+00:10:51,680 --> 00:10:52,320
+ and the sheet
+
+557
+00:10:52,320 --> 00:10:52,980
+ of the keyframes
+
+558
+00:10:52,980 --> 00:10:53,580
+ that make it up.
+
+559
+00:10:53,700 --> 00:10:54,620
+ So think of it like this.
+
+560
+00:10:54,780 --> 00:10:55,500
+ The reference videos
+
+561
+00:10:55,500 --> 00:10:56,480
+ are how Claude learns
+
+562
+00:10:56,480 --> 00:10:57,840
+ the logic behind the animations
+
+563
+00:10:57,840 --> 00:10:58,800
+ and the Figma board
+
+564
+00:10:58,800 --> 00:11:00,340
+ is how Claude learns the design.
+
+565
+00:11:00,460 --> 00:11:00,820
+ And together,
+
+566
+00:11:00,940 --> 00:11:02,240
+ that's how Claude mastered
+
+567
+00:11:02,240 --> 00:11:03,000
+ the Arthur Brooks
+
+568
+00:11:03,000 --> 00:11:04,220
+ minimal animation style.
+
+569
+00:11:04,300 --> 00:11:04,980
+ And this is how you can
+
+570
+00:11:04,980 --> 00:11:05,520
+ train Claude
+
+571
+00:11:05,520 --> 00:11:06,500
+ on any style.
+
+572
+00:11:06,580 --> 00:11:07,380
+ Now I'm sure you're wondering
+
+573
+00:11:07,380 --> 00:11:08,140
+ where you can download
+
+574
+00:11:08,140 --> 00:11:08,800
+ these skill files.
+
+575
+00:11:09,040 --> 00:11:10,000
+ And as of right now,
+
+576
+00:11:10,100 --> 00:11:11,100
+ we aren't sharing them
+
+577
+00:11:11,100 --> 00:11:12,360
+ since we're actually saving them
+
+578
+00:11:12,360 --> 00:11:13,220
+ for the next big thing
+
+579
+00:11:13,220 --> 00:11:13,740
+ that we're building.
+
+580
+00:11:13,880 --> 00:11:15,080
+ But if any of this is confusing,
+
+581
+00:11:15,260 --> 00:11:16,800
+ this is exactly what we break down
+
+582
+00:11:16,800 --> 00:11:18,360
+ in the AI Editing Fundamentals
+
+583
+00:11:18,360 --> 00:11:19,000
+ Masterclass
+
+584
+00:11:19,000 --> 00:11:20,500
+ in Ultimate Editors 2.0.
+
+585
+00:11:20,560 --> 00:11:21,260
+ If you've never used
+
+586
+00:11:21,260 --> 00:11:22,240
+ the AI programs before,
+
+587
+00:11:22,400 --> 00:11:23,540
+ we teach you how every tool
+
+588
+00:11:23,540 --> 00:11:24,440
+ works from scratch.
+
+589
+00:11:24,560 --> 00:11:25,280
+ And if you don't have
+
+590
+00:11:25,280 --> 00:11:26,020
+ any skill files,
+
+591
+00:11:26,140 --> 00:11:27,080
+ we give you the skills
+
+592
+00:11:27,080 --> 00:11:28,160
+ for the viral edits
+
+593
+00:11:28,160 --> 00:11:29,160
+ that you guys know and love.
+
+594
+00:11:29,240 --> 00:11:30,200
+ The Imangaji style,
+
+595
+00:11:30,500 --> 00:11:31,160
+ the Vox style,
+
+596
+00:11:31,300 --> 00:11:32,500
+ and the viral short form edits.
+
+597
+00:11:32,700 --> 00:11:33,480
+ And most importantly,
+
+598
+00:11:33,660 --> 00:11:34,620
+ we show you exactly
+
+599
+00:11:34,620 --> 00:11:35,620
+ how we trained Claude
+
+600
+00:11:35,620 --> 00:11:36,680
+ on each of those styles
+
+601
+00:11:36,680 --> 00:11:37,860
+ so you can go and train it
+
+602
+00:11:37,860 --> 00:11:39,120
+ on any style that you want
+
+603
+00:11:39,120 --> 00:11:39,740
+ on your own.
+
+604
+00:11:39,820 --> 00:11:41,300
+ There's only 14 days left
+
+605
+00:11:41,300 --> 00:11:41,940
+ before we close.
+
+606
+00:11:42,140 --> 00:11:42,960
+ So check it out.
+
+607
+00:11:43,040 --> 00:11:43,840
+ The link is down below
+
+608
+00:11:43,840 --> 00:11:44,580
+ while you still can.
+
+609
+00:11:44,640 --> 00:11:45,500
+ But now that you understand
+
+610
+00:11:45,500 --> 00:11:46,560
+ how this style is made
+
+611
+00:11:46,560 --> 00:11:48,040
+ and Claude has been trained on it,
+
+612
+00:11:48,120 --> 00:11:49,160
+ it's finally time to put
+
+613
+00:11:49,160 --> 00:11:50,220
+ all of this to the test
+
+614
+00:11:50,220 --> 00:11:51,340
+ and create a full
+
+615
+00:11:51,340 --> 00:11:52,360
+ Arthur Brooks edit
+
+616
+00:11:52,360 --> 00:11:53,440
+ inside of Claude
+
+617
+00:11:53,440 --> 00:11:54,000
+ from scratch.
+
+618
+00:11:54,140 --> 00:11:55,440
+ Let's start by loading up Claude
+
+619
+00:11:55,440 --> 00:11:56,280
+ and setting the model
+
+620
+00:11:56,280 --> 00:11:57,580
+ to Opus 5.5.
+
+621
+00:11:57,700 --> 00:11:58,480
+ And I'm going to be using
+
+622
+00:11:58,480 --> 00:11:59,560
+ extra for this edit.
+
+623
+00:11:59,680 --> 00:12:00,380
+ For the raw footage,
+
+624
+00:12:00,480 --> 00:12:01,240
+ I went on YouTube
+
+625
+00:12:01,240 --> 00:12:02,620
+ and found Arthur's podcast
+
+626
+00:12:02,620 --> 00:12:03,720
+ with Chris Williamson.
+
+627
+00:12:03,800 --> 00:12:05,060
+ Then I pulled out this clip
+
+628
+00:12:05,060 --> 00:12:06,500
+ about the four career patterns
+
+629
+00:12:06,500 --> 00:12:07,340
+ that people follow.
+
+630
+00:12:07,420 --> 00:12:08,640
+ This is going to be a raw clip.
+
+631
+00:12:08,740 --> 00:12:09,460
+ So I take that clip
+
+632
+00:12:09,460 --> 00:12:10,600
+ and I drag it into Claude
+
+633
+00:12:10,600 --> 00:12:11,540
+ and I prompted this.
+
+634
+00:12:11,700 --> 00:12:12,300
+ I want you to use
+
+635
+00:12:12,300 --> 00:12:12,940
+ the Arthur Brooks
+
+636
+00:12:12,940 --> 00:12:14,020
+ minimal animation skill
+
+637
+00:12:14,020 --> 00:12:15,300
+ to edit this short form clip
+
+638
+00:12:15,300 --> 00:12:16,680
+ in his premium clean style.
+
+639
+00:12:16,740 --> 00:12:18,120
+ But I don't just leave it at that
+
+640
+00:12:18,120 --> 00:12:19,580
+ because lazy inputs with AI
+
+641
+00:12:19,580 --> 00:12:20,860
+ gets you lazy results.
+
+642
+00:12:21,080 --> 00:12:21,620
+ I know my clip
+
+643
+00:12:21,620 --> 00:12:23,140
+ has silences baked into it
+
+644
+00:12:23,140 --> 00:12:24,040
+ that need to be removed.
+
+645
+00:12:24,180 --> 00:12:25,240
+ And before we edit anything,
+
+646
+00:12:25,240 --> 00:12:26,540
+ I want to plan out the edit
+
+647
+00:12:26,540 --> 00:12:27,800
+ just how Arthur would.
+
+648
+00:12:27,900 --> 00:12:28,580
+ Because I've noticed
+
+649
+00:12:28,580 --> 00:12:29,520
+ that if you let AI
+
+650
+00:12:29,520 --> 00:12:30,560
+ do the planning on its own,
+
+651
+00:12:30,660 --> 00:12:32,120
+ it's actually not creative enough
+
+652
+00:12:32,120 --> 00:12:32,980
+ to do a great job
+
+653
+00:12:32,980 --> 00:12:33,640
+ right off the bat.
+
+654
+00:12:33,740 --> 00:12:35,000
+ So I added this to my prompt.
+
+655
+00:12:35,140 --> 00:12:35,780
+ Start by creating
+
+656
+00:12:35,780 --> 00:12:36,760
+ a word-by-word transcript
+
+657
+00:12:36,760 --> 00:12:37,820
+ at the millisecond level
+
+658
+00:12:37,820 --> 00:12:39,060
+ and cut out all silences,
+
+659
+00:12:39,220 --> 00:12:40,660
+ leaving 30 milliseconds of panic.
+
+660
+00:12:40,880 --> 00:12:41,440
+ On top of that,
+
+661
+00:12:41,520 --> 00:12:42,180
+ hand me a document
+
+662
+00:12:42,180 --> 00:12:43,480
+ with the script of my raw video
+
+663
+00:12:43,480 --> 00:12:44,180
+ on the right side
+
+664
+00:12:44,180 --> 00:12:45,480
+ and text boxes on the left
+
+665
+00:12:45,480 --> 00:12:46,660
+ with recommended designs
+
+666
+00:12:46,660 --> 00:12:47,200
+ pulled from the
+
+667
+00:12:47,200 --> 00:12:48,480
+ Arthur Brooks reference folder
+
+668
+00:12:48,480 --> 00:12:49,640
+ so that I can plan out
+
+669
+00:12:49,640 --> 00:12:50,720
+ and decide what needs
+
+670
+00:12:50,720 --> 00:12:51,700
+ to be built for each scene.
+
+671
+00:12:51,800 --> 00:12:52,740
+ Then I click continue.
+
+672
+00:12:52,840 --> 00:12:53,700
+ The first thing Claude does
+
+673
+00:12:53,700 --> 00:12:54,640
+ is load up my skill.
+
+674
+00:12:54,780 --> 00:12:55,940
+ Then it studies the audio
+
+675
+00:12:55,940 --> 00:12:56,340
+ of the clip,
+
+676
+00:12:56,580 --> 00:12:57,180
+ transcribes it,
+
+677
+00:12:57,260 --> 00:12:58,400
+ and starts building the document
+
+678
+00:12:58,400 --> 00:12:59,060
+ with the transcript
+
+679
+00:12:59,060 --> 00:12:59,780
+ on the right side.
+
+680
+00:12:59,860 --> 00:13:00,520
+ Then check this out.
+
+681
+00:13:00,600 --> 00:13:01,620
+ Remember those 20 videos
+
+682
+00:13:01,620 --> 00:13:02,300
+ that we trained it on?
+
+683
+00:13:02,380 --> 00:13:03,320
+ Remember how we told it
+
+684
+00:13:03,320 --> 00:13:04,540
+ to study which animations
+
+685
+00:13:04,540 --> 00:13:05,460
+ are placed to wear
+
+686
+00:13:05,460 --> 00:13:06,000
+ in the script?
+
+687
+00:13:06,120 --> 00:13:07,800
+ It now uses Arthur's own logic
+
+688
+00:13:07,800 --> 00:13:09,220
+ to recommend scene designs
+
+689
+00:13:09,220 --> 00:13:10,400
+ based on what Arthur
+
+690
+00:13:10,400 --> 00:13:11,860
+ typically uses in his videos.
+
+691
+00:13:12,060 --> 00:13:12,860
+ Then it sends me this.
+
+692
+00:13:12,980 --> 00:13:13,820
+ I open the document,
+
+693
+00:13:14,060 --> 00:13:14,900
+ I can read the script
+
+694
+00:13:14,900 --> 00:13:15,540
+ and watch the clip
+
+695
+00:13:15,540 --> 00:13:16,120
+ on the right side,
+
+696
+00:13:16,220 --> 00:13:16,800
+ and on the left,
+
+697
+00:13:16,900 --> 00:13:18,000
+ I can select the recommended
+
+698
+00:13:18,000 --> 00:13:19,060
+ designs for each scene
+
+699
+00:13:19,060 --> 00:13:19,780
+ and even write out
+
+700
+00:13:19,780 --> 00:13:20,380
+ my own notes.
+
+701
+00:13:20,540 --> 00:13:21,720
+ Now this is the most important
+
+702
+00:13:21,720 --> 00:13:22,660
+ step of the whole edit,
+
+703
+00:13:22,860 --> 00:13:23,800
+ so stay with me.
+
+704
+00:13:23,860 --> 00:13:24,500
+ Claude can build
+
+705
+00:13:24,500 --> 00:13:25,580
+ the animations pretty easily,
+
+706
+00:13:25,720 --> 00:13:27,020
+ but without a high quality
+
+707
+00:13:27,020 --> 00:13:27,680
+ edit plan,
+
+708
+00:13:27,800 --> 00:13:28,960
+ the animations just won't
+
+709
+00:13:28,960 --> 00:13:29,520
+ come together
+
+710
+00:13:29,520 --> 00:13:30,580
+ into an amazing edit.
+
+711
+00:13:30,760 --> 00:13:31,560
+ So let me walk you through
+
+712
+00:13:31,560 --> 00:13:32,560
+ exactly how I planned
+
+713
+00:13:32,560 --> 00:13:33,040
+ this one out.
+
+714
+00:13:33,100 --> 00:13:34,200
+ This clip opens with Arthur
+
+715
+00:13:34,200 --> 00:13:34,680
+ saying,
+
+716
+00:13:34,900 --> 00:13:36,040
+ There's four career patterns
+
+717
+00:13:36,040 --> 00:13:36,540
+ psychologically.
+
+718
+00:13:36,780 --> 00:13:37,100
+ For this,
+
+719
+00:13:37,260 --> 00:13:38,140
+ I keep it on arrow
+
+720
+00:13:38,140 --> 00:13:38,920
+ with captions
+
+721
+00:13:38,920 --> 00:13:39,660
+ because this helps
+
+722
+00:13:39,660 --> 00:13:40,380
+ the viewer connect
+
+723
+00:13:40,380 --> 00:13:40,880
+ with Arthur
+
+724
+00:13:40,880 --> 00:13:41,940
+ before anything happens
+
+725
+00:13:41,940 --> 00:13:42,360
+ on the screen.
+
+726
+00:13:42,460 --> 00:13:43,120
+ Then he says,
+
+727
+00:13:43,320 --> 00:13:44,100
+ There's linears
+
+728
+00:13:44,100 --> 00:13:44,860
+ who just kind of go
+
+729
+00:13:44,860 --> 00:13:45,440
+ up and up and up
+
+730
+00:13:45,440 --> 00:13:46,020
+ and up and up
+
+731
+00:13:46,020 --> 00:13:46,680
+ and up in their careers.
+
+732
+00:13:46,920 --> 00:13:48,200
+ So I pick the graph animation
+
+733
+00:13:48,200 --> 00:13:48,940
+ Claude recommended,
+
+734
+00:13:49,320 --> 00:13:49,820
+ which is a line
+
+735
+00:13:49,820 --> 00:13:50,720
+ that climbs one step
+
+736
+00:13:50,720 --> 00:13:51,700
+ every time he says up.
+
+737
+00:13:51,820 --> 00:13:52,280
+ This is going to be
+
+738
+00:13:52,280 --> 00:13:52,820
+ the first visual
+
+739
+00:13:52,820 --> 00:13:53,560
+ that the viewer sees
+
+740
+00:13:53,560 --> 00:13:54,360
+ and it's a great one
+
+741
+00:13:54,360 --> 00:13:54,940
+ to get him hooked.
+
+742
+00:13:55,100 --> 00:13:55,580
+ Then he moves
+
+743
+00:13:55,580 --> 00:13:56,540
+ into the second type.
+
+744
+00:13:56,760 --> 00:13:57,780
+ There are transitories
+
+745
+00:13:57,780 --> 00:13:59,040
+ who kind of just skip around
+
+746
+00:13:59,040 --> 00:13:59,840
+ all over the place.
+
+747
+00:14:00,000 --> 00:14:00,180
+ Here,
+
+748
+00:14:00,280 --> 00:14:01,120
+ I go back to A-Roll
+
+749
+00:14:01,120 --> 00:14:01,700
+ with captions
+
+750
+00:14:01,700 --> 00:14:02,540
+ because he's transitioning
+
+751
+00:14:02,540 --> 00:14:03,360
+ into a new type
+
+752
+00:14:03,360 --> 00:14:04,040
+ and the viewer needs
+
+753
+00:14:04,040 --> 00:14:05,040
+ to see his face again.
+
+754
+00:14:05,120 --> 00:14:05,760
+ Then he describes
+
+755
+00:14:05,760 --> 00:14:06,640
+ that transitory.
+
+756
+00:14:06,780 --> 00:14:07,740
+ I'm going to be a barista
+
+757
+00:14:07,740 --> 00:14:08,700
+ and I fell in love
+
+758
+00:14:08,700 --> 00:14:09,560
+ with a girl in San Diego.
+
+759
+00:14:09,760 --> 00:14:10,440
+ So I go with
+
+760
+00:14:10,440 --> 00:14:11,240
+ a painting animation
+
+761
+00:14:11,240 --> 00:14:12,020
+ to show the viewer
+
+762
+00:14:12,020 --> 00:14:13,440
+ exactly what he's talking about.
+
+763
+00:14:13,560 --> 00:14:14,060
+ And by the way,
+
+764
+00:14:14,200 --> 00:14:15,100
+ notice the patterns here.
+
+765
+00:14:15,300 --> 00:14:15,960
+ Whenever Arthur
+
+766
+00:14:15,960 --> 00:14:17,000
+ announces a new type,
+
+767
+00:14:17,120 --> 00:14:17,860
+ we stay on his face.
+
+768
+00:14:17,980 --> 00:14:19,000
+ Whenever he describes it,
+
+769
+00:14:19,120 --> 00:14:19,960
+ we actually show it.
+
+770
+00:14:20,060 --> 00:14:20,700
+ Then he says,
+
+771
+00:14:22,280 --> 00:14:23,700
+ which is like slow and steady.
+
+772
+00:14:23,880 --> 00:14:24,740
+ So I keep him on A-Roll
+
+773
+00:14:24,740 --> 00:14:25,460
+ for the first half
+
+774
+00:14:25,460 --> 00:14:26,840
+ and switch to a graph animation
+
+775
+00:14:26,840 --> 00:14:27,480
+ midway through,
+
+776
+00:14:27,580 --> 00:14:28,400
+ a long flat line
+
+777
+00:14:28,400 --> 00:14:29,300
+ for slow and steady.
+
+778
+00:14:29,440 --> 00:14:30,280
+ And then he says,
+
+779
+00:14:30,460 --> 00:14:31,460
+ My dad had the same job
+
+780
+00:14:31,460 --> 00:14:32,220
+ for 42 years.
+
+781
+00:14:32,300 --> 00:14:33,580
+ And since he's describing a person,
+
+782
+00:14:33,820 --> 00:14:34,660
+ I go with the character
+
+783
+00:14:34,660 --> 00:14:35,580
+ call-out animation.
+
+784
+00:14:35,780 --> 00:14:37,100
+ Then he gets to the spirals.
+
+785
+00:14:37,320 --> 00:14:37,960
+ But a lot of people
+
+786
+00:14:37,960 --> 00:14:39,020
+ who are watching this show
+
+787
+00:14:39,020 --> 00:14:39,980
+ are spirals
+
+788
+00:14:39,980 --> 00:14:41,560
+ for every 7 to 12 years.
+
+789
+00:14:41,560 --> 00:14:42,180
+ So I chose
+
+790
+00:14:42,180 --> 00:14:43,420
+ a center illustration animation
+
+791
+00:14:43,420 --> 00:14:43,980
+ of a spiral.
+
+792
+00:14:44,180 --> 00:14:44,820
+ Then he describes
+
+793
+00:14:44,820 --> 00:14:46,080
+ what spirals need to do.
+
+794
+00:14:46,180 --> 00:14:47,000
+ Take their career down
+
+795
+00:14:47,000 --> 00:14:47,800
+ to the studs
+
+796
+00:14:47,800 --> 00:14:48,540
+ and start again.
+
+797
+00:14:48,640 --> 00:14:49,480
+ Here we tell the story
+
+798
+00:14:49,480 --> 00:14:49,980
+ with B-roll
+
+799
+00:14:49,980 --> 00:14:50,640
+ so it's easy
+
+800
+00:14:50,640 --> 00:14:51,660
+ for the viewer to feel it.
+
+801
+00:14:51,740 --> 00:14:53,220
+ Then he tells his own story.
+
+802
+00:14:53,340 --> 00:14:54,360
+ The first turn is hardest.
+
+803
+00:14:54,600 --> 00:14:54,840
+ For me,
+
+804
+00:14:54,920 --> 00:14:55,740
+ leaving the French horn
+
+805
+00:14:55,740 --> 00:14:56,820
+ and becoming a scientist,
+
+806
+00:14:57,020 --> 00:14:58,140
+ that was brutal.
+
+807
+00:14:58,340 --> 00:14:59,340
+ So I wrap his point up
+
+808
+00:14:59,340 --> 00:15:00,680
+ with an object call-out animation
+
+809
+00:15:00,680 --> 00:15:01,780
+ with images of him.
+
+810
+00:15:02,000 --> 00:15:02,980
+ And then he jokes,
+
+811
+00:15:03,200 --> 00:15:04,080
+ Maybe in 10 years,
+
+812
+00:15:04,140 --> 00:15:05,080
+ I'll be a circus clown
+
+813
+00:15:05,080 --> 00:15:06,280
+ or firefighter or something.
+
+814
+00:15:06,520 --> 00:15:07,200
+ So I go with
+
+815
+00:15:07,200 --> 00:15:08,060
+ a centered illustration
+
+816
+00:15:08,060 --> 00:15:08,600
+ of Arthur
+
+817
+00:15:08,600 --> 00:15:10,000
+ with a circle cycling
+
+818
+00:15:10,000 --> 00:15:10,780
+ through his options.
+
+819
+00:15:10,980 --> 00:15:12,080
+ Then for his big point,
+
+820
+00:15:12,200 --> 00:15:12,860
+ That's what it means
+
+821
+00:15:12,860 --> 00:15:14,200
+ to live an entrepreneurial life
+
+822
+00:15:14,200 --> 00:15:15,020
+ where you're pursuing
+
+823
+00:15:15,020 --> 00:15:15,720
+ your calling
+
+824
+00:15:15,720 --> 00:15:16,520
+ because you have
+
+825
+00:15:16,520 --> 00:15:17,060
+ the agility
+
+826
+00:15:17,060 --> 00:15:18,180
+ and the courage.
+
+827
+00:15:18,180 --> 00:15:19,080
+ I use a line
+
+828
+00:15:19,080 --> 00:15:19,880
+ and text animation
+
+829
+00:15:19,880 --> 00:15:20,560
+ with the line
+
+830
+00:15:20,560 --> 00:15:21,240
+ running through,
+
+831
+00:15:21,440 --> 00:15:21,720
+ calling,
+
+832
+00:15:22,000 --> 00:15:22,280
+ agility,
+
+833
+00:15:22,640 --> 00:15:23,100
+ and courage.
+
+834
+00:15:23,300 --> 00:15:24,060
+ And at the very end,
+
+835
+00:15:24,140 --> 00:15:24,880
+ To be an entrepreneur
+
+836
+00:15:24,880 --> 00:15:25,660
+ in the enterprise
+
+837
+00:15:25,660 --> 00:15:26,400
+ and the business of life,
+
+838
+00:15:26,540 --> 00:15:27,240
+ I end the video
+
+839
+00:15:27,240 --> 00:15:28,400
+ on a text-centric scene
+
+840
+00:15:28,400 --> 00:15:30,000
+ with the quotation marks around it.
+
+841
+00:15:30,040 --> 00:15:30,740
+ All that I'm doing here
+
+842
+00:15:30,740 --> 00:15:31,880
+ is using my own experience
+
+843
+00:15:31,880 --> 00:15:32,560
+ as a video editor
+
+844
+00:15:32,560 --> 00:15:33,640
+ to choose the scenes
+
+845
+00:15:33,640 --> 00:15:34,660
+ that make this video
+
+846
+00:15:34,660 --> 00:15:35,740
+ the most fun to watch.
+
+847
+00:15:35,840 --> 00:15:37,260
+ So every scene is balanced
+
+848
+00:15:37,260 --> 00:15:38,480
+ and the video flows well
+
+849
+00:15:38,480 --> 00:15:39,000
+ and it's easy
+
+850
+00:15:39,000 --> 00:15:39,880
+ for the viewer to watch.
+
+851
+00:15:40,020 --> 00:15:41,020
+ Now with the plan complete,
+
+852
+00:15:41,140 --> 00:15:42,280
+ I click on copy plan
+
+853
+00:15:42,280 --> 00:15:43,040
+ and paste it
+
+854
+00:15:43,040 --> 00:15:43,900
+ into the prompt box
+
+855
+00:15:43,900 --> 00:15:45,060
+ and simply ask Claude
+
+856
+00:15:45,060 --> 00:15:46,300
+ to build all the animations
+
+857
+00:15:46,300 --> 00:15:47,620
+ and create the edit.
+
+858
+00:15:47,780 --> 00:15:48,360
+ I also tell it
+
+859
+00:15:48,360 --> 00:15:49,400
+ that if it needs any assets,
+
+860
+00:15:49,560 --> 00:15:50,780
+ it can use my Chrome browser
+
+861
+00:15:50,780 --> 00:15:52,180
+ or any files it needs.
+
+862
+00:15:52,340 --> 00:15:53,220
+ And it can also prompt me
+
+863
+00:15:53,220 --> 00:15:53,800
+ if there's anything
+
+864
+00:15:53,800 --> 00:15:54,400
+ it can't find.
+
+865
+00:15:54,540 --> 00:15:54,860
+ So again,
+
+866
+00:15:55,120 --> 00:15:56,020
+ raw videos go in,
+
+867
+00:15:56,120 --> 00:15:57,340
+ the planning document comes out,
+
+868
+00:15:57,520 --> 00:15:58,260
+ we plan the edit,
+
+869
+00:15:58,460 --> 00:15:59,420
+ we send it back in,
+
+870
+00:15:59,580 --> 00:16:00,580
+ and now Claude builds it.
+
+871
+00:16:00,680 --> 00:16:01,860
+ First, Claude analyzes
+
+872
+00:16:01,860 --> 00:16:02,560
+ our edit plan
+
+873
+00:16:02,560 --> 00:16:03,180
+ to understand
+
+874
+00:16:03,180 --> 00:16:04,440
+ what it needs to create
+
+875
+00:16:04,440 --> 00:16:05,500
+ and then it finds
+
+876
+00:16:05,500 --> 00:16:06,240
+ all the references
+
+877
+00:16:06,240 --> 00:16:07,100
+ that we chose
+
+878
+00:16:07,100 --> 00:16:08,680
+ from the Arthur reference folder
+
+879
+00:16:08,680 --> 00:16:10,140
+ and prepares the exact designs
+
+880
+00:16:10,140 --> 00:16:10,860
+ it needs to copy.
+
+881
+00:16:10,940 --> 00:16:11,620
+ Then it creates
+
+882
+00:16:11,620 --> 00:16:12,380
+ an asset list
+
+883
+00:16:12,380 --> 00:16:13,200
+ which is the list
+
+884
+00:16:13,200 --> 00:16:14,560
+ of every asset it needs
+
+885
+00:16:14,560 --> 00:16:15,400
+ for this edit
+
+886
+00:16:15,400 --> 00:16:16,660
+ and goes and fetches them.
+
+887
+00:16:16,740 --> 00:16:17,240
+ In my case,
+
+888
+00:16:17,340 --> 00:16:18,180
+ it gathered the paintings
+
+889
+00:16:18,180 --> 00:16:18,900
+ from Wikipedia,
+
+890
+00:16:19,120 --> 00:16:19,740
+ the stock footage
+
+891
+00:16:19,740 --> 00:16:20,360
+ from Pexels,
+
+892
+00:16:20,540 --> 00:16:21,200
+ and even pictures
+
+893
+00:16:21,200 --> 00:16:22,580
+ of Arthur from Wikipedia.
+
+894
+00:16:22,740 --> 00:16:22,900
+ Again,
+
+895
+00:16:23,000 --> 00:16:23,920
+ it's doing all of this
+
+896
+00:16:23,920 --> 00:16:24,800
+ without me touching
+
+897
+00:16:24,800 --> 00:16:25,500
+ a single thing.
+
+898
+00:16:25,580 --> 00:16:26,700
+ Once it has every asset,
+
+899
+00:16:26,820 --> 00:16:28,080
+ it starts creating the edit,
+
+900
+00:16:28,360 --> 00:16:29,860
+ starting with the A-roll captions,
+
+901
+00:16:30,140 --> 00:16:30,960
+ it downloads the fonts
+
+902
+00:16:30,960 --> 00:16:31,760
+ it needs from Google,
+
+903
+00:16:31,940 --> 00:16:33,060
+ captions the entire video,
+
+904
+00:16:33,220 --> 00:16:33,660
+ and applies
+
+905
+00:16:33,660 --> 00:16:34,820
+ the cinematic text design.
+
+906
+00:16:34,900 --> 00:16:35,580
+ Then it builds the edit
+
+907
+00:16:35,580 --> 00:16:36,320
+ scene by scene.
+
+908
+00:16:36,400 --> 00:16:37,100
+ The painting scene,
+
+909
+00:16:37,360 --> 00:16:38,100
+ the character scene,
+
+910
+00:16:38,340 --> 00:16:39,180
+ the B-roll with text,
+
+911
+00:16:39,400 --> 00:16:40,240
+ the element callout,
+
+912
+00:16:40,340 --> 00:16:41,100
+ the two graph scenes,
+
+913
+00:16:41,380 --> 00:16:42,360
+ the line and text scene,
+
+914
+00:16:42,580 --> 00:16:43,540
+ the spiral illustration,
+
+915
+00:16:43,800 --> 00:16:45,020
+ and the final Arthur illustration.
+
+916
+00:16:45,220 --> 00:16:45,960
+ After all of those
+
+917
+00:16:45,960 --> 00:16:46,780
+ are built in re-motion,
+
+918
+00:16:46,960 --> 00:16:48,020
+ it renders the full video
+
+919
+00:16:48,020 --> 00:16:48,700
+ and sends me
+
+920
+00:16:48,700 --> 00:16:49,680
+ the first version to look at.
+
+921
+00:16:49,740 --> 00:16:50,400
+ Now the first draft
+
+922
+00:16:50,400 --> 00:16:51,600
+ was looking amazing,
+
+923
+00:16:51,840 --> 00:16:52,860
+ but I always keep in mind
+
+924
+00:16:52,860 --> 00:16:53,600
+ that the first draft
+
+925
+00:16:53,600 --> 00:16:54,180
+ is going to be
+
+926
+00:16:54,180 --> 00:16:56,140
+ 60-70% of the way there.
+
+927
+00:16:56,240 --> 00:16:56,880
+ It's our job
+
+928
+00:16:56,880 --> 00:16:57,600
+ to watch the video
+
+929
+00:16:57,600 --> 00:16:58,720
+ and give it detailed revisions
+
+930
+00:16:58,720 --> 00:16:59,960
+ to make it better and better.
+
+931
+00:17:00,060 --> 00:17:00,540
+ In my case,
+
+932
+00:17:00,640 --> 00:17:01,960
+ I had six simple revisions.
+
+933
+00:17:02,160 --> 00:17:02,380
+ First,
+
+934
+00:17:02,540 --> 00:17:03,180
+ the text design
+
+935
+00:17:03,180 --> 00:17:03,920
+ in the first scene
+
+936
+00:17:03,920 --> 00:17:04,500
+ wasn't good,
+
+937
+00:17:04,560 --> 00:17:05,280
+ and I wanted the word
+
+938
+00:17:05,280 --> 00:17:07,120
+ psychology up on the same scene.
+
+939
+00:17:07,240 --> 00:17:07,460
+ Second,
+
+940
+00:17:07,580 --> 00:17:08,240
+ there was a rough cut
+
+941
+00:17:08,240 --> 00:17:09,060
+ between two animations.
+
+942
+00:17:09,340 --> 00:17:09,540
+ Third,
+
+943
+00:17:09,660 --> 00:17:10,640
+ the paint texture was heavy
+
+944
+00:17:10,640 --> 00:17:11,160
+ and didn't move
+
+945
+00:17:11,160 --> 00:17:11,720
+ with the animation.
+
+946
+00:17:11,940 --> 00:17:12,180
+ Fourth,
+
+947
+00:17:12,300 --> 00:17:13,080
+ there was a bad cut
+
+948
+00:17:13,080 --> 00:17:13,880
+ at second 24.
+
+949
+00:17:13,880 --> 00:17:14,320
+ Fifth,
+
+950
+00:17:14,500 --> 00:17:15,260
+ the spiral animation
+
+951
+00:17:15,260 --> 00:17:15,920
+ needed to stay
+
+952
+00:17:15,920 --> 00:17:16,620
+ on the screen longer.
+
+953
+00:17:16,860 --> 00:17:17,220
+ And sixth,
+
+954
+00:17:17,420 --> 00:17:18,440
+ we needed quotation marks
+
+955
+00:17:18,440 --> 00:17:19,480
+ on the text scene at the end.
+
+956
+00:17:19,540 --> 00:17:20,280
+ So I told Claude
+
+957
+00:17:20,280 --> 00:17:21,420
+ to make all six of the changes
+
+958
+00:17:21,420 --> 00:17:22,120
+ and pretty quickly,
+
+959
+00:17:22,260 --> 00:17:22,880
+ it sent me back
+
+960
+00:17:22,880 --> 00:17:23,660
+ the revised video.
+
+961
+00:17:23,740 --> 00:17:24,420
+ Then it asked me
+
+962
+00:17:24,420 --> 00:17:25,420
+ if the video was complete
+
+963
+00:17:25,420 --> 00:17:26,500
+ and ready for sound design
+
+964
+00:17:26,500 --> 00:17:27,160
+ or if there were
+
+965
+00:17:27,160 --> 00:17:27,980
+ any more revisions.
+
+966
+00:17:28,180 --> 00:17:28,840
+ I watched through it
+
+967
+00:17:28,840 --> 00:17:29,920
+ and it looked perfect.
+
+968
+00:17:30,160 --> 00:17:31,000
+ So I told it,
+
+969
+00:17:31,080 --> 00:17:31,480
+ go ahead
+
+970
+00:17:31,480 --> 00:17:32,880
+ and continue the sound design.
+
+971
+00:17:32,960 --> 00:17:33,820
+ And remember how Claude
+
+972
+00:17:33,820 --> 00:17:35,040
+ has 20 of Arthur's
+
+973
+00:17:35,040 --> 00:17:35,560
+ best videos
+
+974
+00:17:35,560 --> 00:17:36,400
+ in the reference folder?
+
+975
+00:17:36,580 --> 00:17:36,760
+ Well,
+
+976
+00:17:36,880 --> 00:17:38,040
+ it used them to figure out
+
+977
+00:17:38,040 --> 00:17:38,820
+ which sound effects
+
+978
+00:17:38,820 --> 00:17:39,300
+ go where
+
+979
+00:17:39,300 --> 00:17:40,820
+ and what the music sounds like.
+
+980
+00:17:40,820 --> 00:17:41,520
+ So it adds
+
+981
+00:17:41,520 --> 00:17:42,740
+ a cinematic music track,
+
+982
+00:17:42,860 --> 00:17:43,580
+ clicks for text,
+
+983
+00:17:43,840 --> 00:17:44,880
+ highlighters for graphs,
+
+984
+00:17:45,040 --> 00:17:45,900
+ whooshes for transitions
+
+985
+00:17:45,900 --> 00:17:47,540
+ and every other sound effect
+
+986
+00:17:47,540 --> 00:17:48,100
+ that it needs.
+
+987
+00:17:48,240 --> 00:17:48,880
+ And it renders out
+
+988
+00:17:48,880 --> 00:17:49,580
+ the complete video.
+
+989
+00:17:49,700 --> 00:17:50,280
+ And ladies and gentlemen,
+
+990
+00:17:50,420 --> 00:17:51,440
+ this is the final result
+
+991
+00:17:51,440 --> 00:17:52,220
+ that we ended up with
+
+992
+00:17:52,220 --> 00:17:53,160
+ after training Claude
+
+993
+00:17:53,160 --> 00:17:54,140
+ on the Arthur Brooks
+
+994
+00:17:54,140 --> 00:17:55,260
+ minimal animation style.
+
+995
+00:17:55,320 --> 00:17:56,540
+ There's four career patterns
+
+996
+00:17:56,540 --> 00:17:57,060
+ psychologically.
+
+997
+00:17:57,340 --> 00:17:58,160
+ There's linears
+
+998
+00:17:58,160 --> 00:17:58,860
+ who just kind of go
+
+999
+00:17:58,860 --> 00:17:59,460
+ up and up and up
+
+1000
+00:17:59,460 --> 00:18:00,060
+ and up and up and up
+
+1001
+00:18:00,060 --> 00:18:00,720
+ and up in their careers
+
+1002
+00:18:00,720 --> 00:18:01,920
+ and they only change
+
+1003
+00:18:01,920 --> 00:18:02,900
+ when something is better.
+
+1004
+00:18:03,140 --> 00:18:04,160
+ There are transitories
+
+1005
+00:18:04,160 --> 00:18:05,440
+ who kind of just skip around
+
+1006
+00:18:05,440 --> 00:18:06,240
+ all over the place.
+
+1007
+00:18:06,440 --> 00:18:07,320
+ I'm going to be a barista
+
+1008
+00:18:07,320 --> 00:18:08,300
+ and I fell in love
+
+1009
+00:18:08,300 --> 00:18:09,140
+ with a girl in San Diego.
+
+1010
+00:18:09,480 --> 00:18:10,340
+ There are what's called
+
+1011
+00:18:10,340 --> 00:18:10,740
+ Expert,
+
+1012
+00:18:10,900 --> 00:18:12,240
+ which is like slow and steady.
+
+1013
+00:18:12,460 --> 00:18:13,360
+ My dad had the same job
+
+1014
+00:18:13,360 --> 00:18:14,160
+ for 42 years,
+
+1015
+00:18:14,220 --> 00:18:14,640
+ for example.
+
+1016
+00:18:14,920 --> 00:18:15,440
+ And the reason is
+
+1017
+00:18:15,440 --> 00:18:16,500
+ because it was secure
+
+1018
+00:18:16,500 --> 00:18:19,000
+ and because it was low stress.
+
+1019
+00:18:19,180 --> 00:18:19,580
+ A lot of people
+
+1020
+00:18:19,580 --> 00:18:20,660
+ who are watching this show
+
+1021
+00:18:20,660 --> 00:18:21,580
+ are spirals.
+
+1022
+00:18:21,800 --> 00:18:23,240
+ For every 7 to 12 years,
+
+1023
+00:18:23,420 --> 00:18:24,080
+ what they need
+
+1024
+00:18:24,080 --> 00:18:25,040
+ is to take their career
+
+1025
+00:18:25,040 --> 00:18:26,060
+ down to the studs
+
+1026
+00:18:26,060 --> 00:18:26,800
+ and start again.
+
+1027
+00:18:26,900 --> 00:18:27,920
+ The first turn is hardest.
+
+1028
+00:18:28,160 --> 00:18:28,400
+ For me,
+
+1029
+00:18:28,480 --> 00:18:29,280
+ leaving the French horn
+
+1030
+00:18:29,280 --> 00:18:30,380
+ and becoming a scientist,
+
+1031
+00:18:30,580 --> 00:18:31,720
+ that was brutal.
+
+1032
+00:18:31,940 --> 00:18:32,400
+ Going back
+
+1033
+00:18:32,400 --> 00:18:33,400
+ and getting a PhD
+
+1034
+00:18:33,400 --> 00:18:34,000
+ when I didn't know
+
+1035
+00:18:34,000 --> 00:18:34,740
+ what I was doing,
+
+1036
+00:18:34,820 --> 00:18:35,380
+ it was really,
+
+1037
+00:18:35,480 --> 00:18:36,020
+ really, really hard.
+
+1038
+00:18:36,200 --> 00:18:37,200
+ Second turn, easier.
+
+1039
+00:18:37,400 --> 00:18:38,680
+ I'm on my fourth turn right now.
+
+1040
+00:18:38,860 --> 00:18:39,180
+ Who knows?
+
+1041
+00:18:39,260 --> 00:18:40,120
+ Maybe in 10 years,
+
+1042
+00:18:40,180 --> 00:18:41,100
+ I'll be a circus clown
+
+1043
+00:18:41,100 --> 00:18:42,340
+ or firefighter or something.
+
+1044
+00:18:42,780 --> 00:18:43,820
+ But the whole point is
+
+1045
+00:18:43,820 --> 00:18:44,680
+ that that's what it means
+
+1046
+00:18:44,680 --> 00:18:46,020
+ to live an entrepreneurial life
+
+1047
+00:18:46,020 --> 00:18:46,820
+ where you're pursuing
+
+1048
+00:18:46,820 --> 00:18:47,480
+ your calling
+
+1049
+00:18:47,480 --> 00:18:48,880
+ because you have the agility
+
+1050
+00:18:48,880 --> 00:18:49,980
+ and the courage
+
+1051
+00:18:49,980 --> 00:18:50,900
+ to be an entrepreneur
+
+1052
+00:18:50,900 --> 00:18:51,680
+ in the enterprise
+
+1053
+00:18:51,680 --> 00:18:52,460
+ and the business of life.
+
+1054
+00:18:52,540 --> 00:18:53,500
+ Now, I'm sure you're blown away
+
+1055
+00:18:53,500 --> 00:18:54,500
+ at how Claude could create
+
+1056
+00:18:54,500 --> 00:18:55,400
+ such an awesome edit,
+
+1057
+00:18:55,540 --> 00:18:56,260
+ but I'm also sure
+
+1058
+00:18:56,260 --> 00:18:56,780
+ you're wondering
+
+1059
+00:18:56,780 --> 00:18:57,680
+ how long that took
+
+1060
+00:18:57,680 --> 00:18:58,600
+ and how much it cost.
+
+1061
+00:18:58,720 --> 00:18:59,440
+ The only cost was
+
+1062
+00:18:59,440 --> 00:19:01,220
+ my $100 per month Claude plan,
+
+1063
+00:19:01,340 --> 00:19:02,380
+ and I think you could even do it
+
+1064
+00:19:02,380 --> 00:19:03,860
+ on the $20 per month plan as well.
+
+1065
+00:19:03,920 --> 00:19:04,500
+ As for the time,
+
+1066
+00:19:04,620 --> 00:19:05,360
+ here's the quick breakdown.
+
+1067
+00:19:05,580 --> 00:19:06,500
+ Sending in the raw video
+
+1068
+00:19:06,500 --> 00:19:07,360
+ and making the cuts
+
+1069
+00:19:07,360 --> 00:19:08,660
+ and creating the planning document
+
+1070
+00:19:08,660 --> 00:19:09,880
+ took around 15 minutes.
+
+1071
+00:19:10,040 --> 00:19:10,880
+ Planning the edit myself
+
+1072
+00:19:10,880 --> 00:19:12,020
+ took another 15 minutes.
+
+1073
+00:19:12,180 --> 00:19:13,220
+ Creating the entire edit,
+
+1074
+00:19:13,400 --> 00:19:13,800
+ the text,
+
+1075
+00:19:14,000 --> 00:19:14,360
+ the lines,
+
+1076
+00:19:14,540 --> 00:19:14,920
+ the graphs,
+
+1077
+00:19:15,040 --> 00:19:15,460
+ the paintings,
+
+1078
+00:19:15,600 --> 00:19:16,060
+ the illustrations,
+
+1079
+00:19:16,320 --> 00:19:17,080
+ everything all together
+
+1080
+00:19:17,080 --> 00:19:18,820
+ took Claude around 60 minutes.
+
+1081
+00:19:19,040 --> 00:19:20,480
+ The revisions took 10 minutes
+
+1082
+00:19:20,480 --> 00:19:21,340
+ and the sound design
+
+1083
+00:19:21,340 --> 00:19:22,860
+ and music took 15 minutes.
+
+1084
+00:19:23,000 --> 00:19:23,460
+ So altogether,
+
+1085
+00:19:23,680 --> 00:19:24,840
+ I uploaded a raw video,
+
+1086
+00:19:25,040 --> 00:19:26,220
+ did 15 minutes of planning,
+
+1087
+00:19:26,420 --> 00:19:27,160
+ and in two hours,
+
+1088
+00:19:27,280 --> 00:19:27,820
+ Claude created
+
+1089
+00:19:27,820 --> 00:19:29,140
+ this stunning viral edit.
+
+1090
+00:19:29,300 --> 00:19:30,260
+ But the next time I do this,
+
+1091
+00:19:30,320 --> 00:19:30,920
+ it's going to take
+
+1092
+00:19:30,920 --> 00:19:32,000
+ almost half the time
+
+1093
+00:19:32,000 --> 00:19:32,540
+ since Claude
+
+1094
+00:19:32,540 --> 00:19:33,600
+ is only going to get better
+
+1095
+00:19:33,600 --> 00:19:34,200
+ at doing this.
+
+1096
+00:19:34,320 --> 00:19:35,320
+ If there's one big takeaway
+
+1097
+00:19:35,320 --> 00:19:36,000
+ from this video,
+
+1098
+00:19:36,140 --> 00:19:36,600
+ it's this.
+
+1099
+00:19:36,720 --> 00:19:37,360
+ As a video editor,
+
+1100
+00:19:37,480 --> 00:19:38,200
+ you need to understand
+
+1101
+00:19:38,200 --> 00:19:39,160
+ how good content
+
+1102
+00:19:39,160 --> 00:19:40,460
+ is edited in 2026
+
+1103
+00:19:40,460 --> 00:19:41,280
+ and you need to learn
+
+1104
+00:19:41,280 --> 00:19:42,520
+ how to do that using AI.
+
+1105
+00:19:42,640 --> 00:19:42,980
+ Right now,
+
+1106
+00:19:43,080 --> 00:19:43,820
+ being a good editor
+
+1107
+00:19:43,820 --> 00:19:44,700
+ is about learning
+
+1108
+00:19:44,700 --> 00:19:45,800
+ how good videos are edited
+
+1109
+00:19:45,800 --> 00:19:47,200
+ and using AI to create them.
+
+1110
+00:19:47,380 --> 00:19:48,340
+ But in 2027,
+
+1111
+00:19:48,480 --> 00:19:49,400
+ the editors who learned
+
+1112
+00:19:49,400 --> 00:19:50,140
+ AI video editing
+
+1113
+00:19:50,140 --> 00:19:51,780
+ are going to be so far ahead
+
+1114
+00:19:51,780 --> 00:19:52,640
+ that for the editors
+
+1115
+00:19:52,640 --> 00:19:53,280
+ who didn't,
+
+1116
+00:19:53,380 --> 00:19:53,880
+ it's going to be
+
+1117
+00:19:53,880 --> 00:19:55,020
+ way too late to catch up.
+
+1118
+00:19:55,140 --> 00:19:55,600
+ This is why
+
+1119
+00:19:55,600 --> 00:19:57,340
+ with only 14 days left,
+
+1120
+00:19:57,400 --> 00:19:58,420
+ it's the best time
+
+1121
+00:19:58,420 --> 00:20:00,260
+ to join Ultimate Editors 2.0.
+
+1122
+00:20:00,340 --> 00:20:00,640
+ Inside,
+
+1123
+00:20:00,740 --> 00:20:01,100
+ we teach you
+
+1124
+00:20:01,100 --> 00:20:02,000
+ the design fundamentals
+
+1125
+00:20:02,000 --> 00:20:02,700
+ of good edits
+
+1126
+00:20:02,700 --> 00:20:03,880
+ and the editing psychology
+
+1127
+00:20:03,880 --> 00:20:05,440
+ behind good short-form videos.
+
+1128
+00:20:05,640 --> 00:20:06,040
+ We teach you
+
+1129
+00:20:06,040 --> 00:20:06,500
+ how to edit
+
+1130
+00:20:06,500 --> 00:20:07,580
+ cinematic short films,
+
+1131
+00:20:07,780 --> 00:20:08,480
+ minimal animations
+
+1132
+00:20:08,480 --> 00:20:09,200
+ and viral
+
+1133
+00:20:09,200 --> 00:20:10,440
+ SAS motion design videos
+
+1134
+00:20:10,440 --> 00:20:12,040
+ and viral talking head videos.
+
+1135
+00:20:12,180 --> 00:20:13,420
+ Our AI Editing Fundamentals
+
+1136
+00:20:13,420 --> 00:20:14,380
+ masterclass teaches you
+
+1137
+00:20:14,380 --> 00:20:14,980
+ everything about
+
+1138
+00:20:14,980 --> 00:20:15,740
+ AI video editing
+
+1139
+00:20:15,740 --> 00:20:16,840
+ from A to Z.
+
+1140
+00:20:16,920 --> 00:20:17,400
+ And we give you
+
+1141
+00:20:17,400 --> 00:20:18,240
+ the skills and courses
+
+1142
+00:20:18,240 --> 00:20:18,700
+ to edit
+
+1143
+00:20:18,700 --> 00:20:19,800
+ Iman Gaji videos,
+
+1144
+00:20:19,960 --> 00:20:20,660
+ Fox documentaries
+
+1145
+00:20:20,660 --> 00:20:22,120
+ and viral short-form videos
+
+1146
+00:20:22,120 --> 00:20:23,020
+ all using AI.
+
+1147
+00:20:23,120 --> 00:20:23,540
+ And finally,
+
+1148
+00:20:23,680 --> 00:20:24,360
+ we even show you
+
+1149
+00:20:24,360 --> 00:20:24,740
+ how to make
+
+1150
+00:20:24,740 --> 00:20:25,900
+ $2,000 a month
+
+1151
+00:20:25,900 --> 00:20:26,680
+ as a video editor
+
+1152
+00:20:26,680 --> 00:20:27,700
+ in 2026
+
+1153
+00:20:27,700 --> 00:20:28,540
+ and actually
+
+1154
+00:20:28,540 --> 00:20:29,700
+ land high-paying clients.
+
+1155
+00:20:29,860 --> 00:20:30,040
+ Look,
+
+1156
+00:20:30,220 --> 00:20:31,020
+ you only have
+
+1157
+00:20:31,020 --> 00:20:31,880
+ 14 more days
+
+1158
+00:20:31,880 --> 00:20:32,400
+ to join
+
+1159
+00:20:32,400 --> 00:20:33,640
+ Ultimate Editors 2.0
+
+1160
+00:20:33,640 --> 00:20:34,540
+ and you can now
+
+1161
+00:20:34,540 --> 00:20:35,580
+ get lifetime access
+
+1162
+00:20:35,580 --> 00:20:36,160
+ to the courses
+
+1163
+00:20:36,160 --> 00:20:37,780
+ for just $299.
+
+1164
+00:20:38,380 --> 00:20:38,960
+ This includes
+
+1165
+00:20:38,960 --> 00:20:40,060
+ all the AI modules
+
+1166
+00:20:40,060 --> 00:20:40,940
+ and all the skills
+
+1167
+00:20:40,940 --> 00:20:41,260
+ you need.
+
+1168
+00:20:41,340 --> 00:20:41,820
+ After that,
+
+1169
+00:20:41,960 --> 00:20:43,300
+ the program closes forever
+
+1170
+00:20:43,300 --> 00:20:44,500
+ and there's no other place
+
+1171
+00:20:44,500 --> 00:20:45,200
+ that teaches you
+
+1172
+00:20:45,200 --> 00:20:46,260
+ the viral editing styles
+
+1173
+00:20:46,260 --> 00:20:47,200
+ of 2026
+
+1174
+00:20:47,200 --> 00:20:48,060
+ and how to do them
+
+1175
+00:20:48,060 --> 00:20:48,440
+ with AI.
+
+1176
+00:20:48,560 --> 00:20:49,780
+ This is your last chance,
+
+1177
+00:20:50,060 --> 00:20:50,720
+ so take it
+
+1178
+00:20:50,720 --> 00:20:51,420
+ while you can.
+
+1179
+00:20:51,540 --> 00:20:52,940
+ Join Ultimate Editors 2.0,
+
+1180
+00:20:53,180 --> 00:20:54,020
+ the link is down below.
+
+1181
+00:20:54,140 --> 00:20:55,000
+ I'll see you guys inside.
+
+1182
+00:20:55,100 --> 00:20:56,560
+ There's less than 14 days left.
+

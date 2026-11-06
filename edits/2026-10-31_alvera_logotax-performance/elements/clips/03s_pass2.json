@@ -1,0 +1,18 @@
+{
+ "src": "/private/tmp/claude-501/-Users-nils-Documents-claude-vv/050a627f-b5a8-497c-90a9-7fc0824ba133/scratchpad/v4/stab/03_B_punch115.mp4",
+ "in": 0,
+ "dur": 1.73,
+ "fps": 24,
+ "speed": 1.0,
+ "canvas": [
+  1080,
+  1920
+ ],
+ "punch": 1.04,
+ "push": [
+  1,
+  1
+ ],
+ "smooth": 0.5,
+ "track_w": 720
+}

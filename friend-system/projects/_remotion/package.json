@@ -1,0 +1,17 @@
+{
+  "name": "video-editor-graphics",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Animated overlay graphics (alpha ProRes) Local to this folder; delete the folder to remove.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.535",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.535",
+    "typescript": "^7.0.2"
+  }
+}
